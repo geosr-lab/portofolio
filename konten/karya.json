@@ -3,7 +3,7 @@
   "profil": {
     "nama": "Defsa Yurinda",
     "peran": "Mahasiswa S1 Teknik Sipil, Universitas Jambi",
-    "ringkas": "Saya mahasiswa Teknik Sipil Fakultas Sains dan Teknologi Universitas Jambi (semester 7 pada 2026) dengan minat utama geoteknik, terutama fondasi tiang dan pengujian tanah. Di halaman ini ada karya lomba, perhitungan, pemodelan numerik, gambar teknik, dan pengalaman lapangan serta laboratorium saya.",
+    "ringkas": "Mahasiswa Teknik Sipil Fakultas Sains dan Teknologi Universitas Jambi (semester 7 pada 2026) dengan minat utama geoteknik, terutama fondasi tiang dan pengujian tanah. Di sini ada pemodelan PLAXIS 3D, perhitungan Excel, desain lomba, dan pengalaman lapangan serta laboratorium saya, lengkap dengan grafik dan data.",
     "github": "defsayurinda",
     "geosr": "https://geosr-lab.github.io/",
     "pendidikan": [
@@ -20,6 +20,13 @@
         "waktu": "November 2026",
         "keterangan": "Tim HIMATESI UNJA; peringkat 1 dari 5 finalis di tahap pertama.",
         "karya": "igc-2026"
+      },
+      {
+        "judul": "Peringkat 1 dari 5 finalis, tahap pertama IGC 2026",
+        "tempat": "HATTI",
+        "waktu": "September 2026",
+        "keterangan": "Back-analysis dan optimasi kelompok tiang dengan PLAXIS 3D.",
+        "karya": "igc-2026-tahap-1"
       }
     ],
     "pengalaman": [
@@ -57,6 +64,74 @@
       {
         "tingkat": "Sedang dipelajari",
         "daftar": "Git, GitHub"
+      }
+    ],
+    "angka": [
+      {
+        "nilai": "Juara 2",
+        "label": "Indonesian Geotechnical Challenge 2026, HATTI"
+      },
+      {
+        "nilai": "1 dari 5",
+        "label": "peringkat finalis di tahap pertama IGC 2026"
+      },
+      {
+        "nilai": "24",
+        "label": "alat praktikum dan kalkulator geoteknik di GeoSR"
+      },
+      {
+        "nilai": "7",
+        "label": "alat berat dianalisis produktivitasnya saat kerja praktik"
+      }
+    ],
+    "linimasa": [
+      {
+        "waktu": "November 2026",
+        "judul": "Juara 2 IGC 2026 (HATTI)",
+        "ket": "Babak final di PIT HATTI XXX, Jakarta: desain dan uji model kelompok tiang HDPE.",
+        "karya": "igc-2026"
+      },
+      {
+        "waktu": "November 2026",
+        "judul": "Proposal lomba perkuatan lereng",
+        "ket": "Tahap penyisihan lomba desain geoteknik nasional; sedang dinilai.",
+        "karya": "lomba-lereng-2026"
+      },
+      {
+        "waktu": "November 2026",
+        "judul": "Kajian risiko karhutla Muaro Jambi",
+        "ket": "Tugas besar Manajemen Bencana.",
+        "karya": "karhutla-muaro-jambi"
+      },
+      {
+        "waktu": "September 2026",
+        "judul": "Peringkat 1 finalis IGC 2026 tahap pertama",
+        "ket": "Back-analysis dan optimasi kelompok tiang dengan PLAXIS 3D.",
+        "karya": "igc-2026-tahap-1"
+      },
+      {
+        "waktu": "Semester ganjil 2026/2027",
+        "judul": "Asisten Laboratorium Mekanika Tanah",
+        "ket": "Mendampingi praktikum dan memeriksa laporan.",
+        "karya": "asisten-lab"
+      },
+      {
+        "waktu": "Juli – September 2026",
+        "judul": "Kerja praktik, Quality Control",
+        "ket": "Fondasi tiang bor dan analisis produktivitas alat berat.",
+        "karya": "kerja-praktik"
+      },
+      {
+        "waktu": "2026",
+        "judul": "Membuat GeoSR",
+        "ket": "Alat olah data praktikum dan kalkulator geoteknik.",
+        "karya": "geosr"
+      },
+      {
+        "waktu": "2025",
+        "judul": "Asisten Dosen Menggambar Struktur Bangunan",
+        "ket": "Asistensi dan penilaian tugas gambar.",
+        "karya": "asisten-dosen"
       }
     ]
   },
@@ -141,7 +216,1349 @@
           "label": "Poster A0 (PDF)",
           "privat": true
         }
-      ]
+      ],
+      "bagian": [
+        {
+          "judul": "1. Sembilan skenario susunan tiang",
+          "teks": [
+            "Tiga batang HDPE 900 mm dipotong menjadi 9 sampai 15 tiang. Makin banyak tiang, makin pendek tiap tiang (247 mm untuk 9 tiang, 126 mm untuk 15 tiang). Setiap skenario dianalisis dengan metode p-y untuk kepala tiang jepit dan bebas."
+          ],
+          "denah": {
+            "keterangan": "Beban dari kiri. Le = panjang tiang tertanam. Bingkai tebal = desain terpilih K01.",
+            "konfigurasi": [
+              {
+                "kode": "K01",
+                "ket": "9 tiang, Le 247 mm",
+                "baris": 3,
+                "kolom": 3,
+                "pilih": true
+              },
+              {
+                "kode": "K02",
+                "ket": "10 tiang, Le 172 mm",
+                "baris": 5,
+                "kolom": 2,
+                "pilih": false
+              },
+              {
+                "kode": "K03",
+                "ket": "10 tiang, Le 172 mm",
+                "baris": 2,
+                "kolom": 5,
+                "pilih": false
+              },
+              {
+                "kode": "K04",
+                "ket": "12 tiang, Le 172 mm",
+                "baris": 4,
+                "kolom": 3,
+                "pilih": false
+              },
+              {
+                "kode": "K05",
+                "ket": "12 tiang, Le 172 mm",
+                "baris": 3,
+                "kolom": 4,
+                "pilih": false
+              },
+              {
+                "kode": "K06",
+                "ket": "12 tiang, Le 172 mm",
+                "baris": 2,
+                "kolom": 6,
+                "pilih": false
+              },
+              {
+                "kode": "K07",
+                "ket": "14 tiang, Le 126 mm",
+                "baris": 2,
+                "kolom": 7,
+                "pilih": false
+              },
+              {
+                "kode": "K08",
+                "ket": "15 tiang, Le 126 mm",
+                "baris": 5,
+                "kolom": 3,
+                "pilih": false
+              },
+              {
+                "kode": "K09",
+                "ket": "15 tiang, Le 126 mm",
+                "baris": 3,
+                "kolom": 5,
+                "pilih": false
+              }
+            ]
+          }
+        },
+        {
+          "judul": "2. Kapasitas K01 dan sensitivitas sudut geser",
+          "teks": [
+            "Kapasitas lateral K01 cukup stabil terhadap variasi φ karena sebagian besar dibatasi momen plastis tiang."
+          ],
+          "grafik": [
+            {
+              "tipe": "garis",
+              "judul": "Kapasitas K01 (skala model) terhadap sudut geser pasir",
+              "x": "Sudut geser φ (°)",
+              "y": "Kapasitas lateral (N)",
+              "x_nol": false,
+              "seri": [
+                {
+                  "nama": "Kepala jepit",
+                  "titik": [
+                    [
+                      30.0,
+                      251.99
+                    ],
+                    [
+                      33.65,
+                      273.33
+                    ],
+                    [
+                      38.15,
+                      300.0
+                    ]
+                  ]
+                },
+                {
+                  "nama": "Kepala bebas",
+                  "titik": [
+                    [
+                      30.0,
+                      168.75
+                    ],
+                    [
+                      33.65,
+                      193.21
+                    ],
+                    [
+                      38.15,
+                      211.99
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "judul": "3. Pemodelan PLAXIS 3D: K01 dibanding K06",
+          "teks": [
+            "Model setengah (bidang simetri) dengan tiang HDPE dan pilecap dibandingkan untuk dua kandidat terkuat. Pada perpindahan yang sama, K01 (9 tiang panjang) menahan beban jauh lebih besar daripada K06 (12 tiang pendek): pada 42,45 mm, 153,1 N dibanding 81,0 N."
+          ],
+          "grafik": [
+            {
+              "tipe": "garis",
+              "judul": "Kurva beban–perpindahan kelompok tiang, PLAXIS 3D (run 20 Oktober 2026)",
+              "x": "Perpindahan garis beban (mm)",
+              "y": "Beban lateral kelompok (N)",
+              "seri": [
+                {
+                  "nama": "K01 (3 × 3, 9 tiang)",
+                  "titik": [
+                    [
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      0.84,
+                      40.8
+                    ],
+                    [
+                      2.21,
+                      66.6
+                    ],
+                    [
+                      3.64,
+                      80.7
+                    ],
+                    [
+                      5.23,
+                      88.5
+                    ],
+                    [
+                      7.04,
+                      94.2
+                    ],
+                    [
+                      8.96,
+                      99.3
+                    ],
+                    [
+                      10.12,
+                      101.8
+                    ],
+                    [
+                      11.9,
+                      106.1
+                    ],
+                    [
+                      13.51,
+                      109.5
+                    ],
+                    [
+                      14.68,
+                      111.8
+                    ],
+                    [
+                      15.92,
+                      114.2
+                    ],
+                    [
+                      17.03,
+                      116.3
+                    ],
+                    [
+                      18.22,
+                      118.6
+                    ],
+                    [
+                      19.48,
+                      120.8
+                    ],
+                    [
+                      20.74,
+                      123.2
+                    ],
+                    [
+                      21.94,
+                      125.6
+                    ],
+                    [
+                      23.19,
+                      128.0
+                    ],
+                    [
+                      24.34,
+                      130.0
+                    ],
+                    [
+                      25.43,
+                      132.2
+                    ],
+                    [
+                      26.49,
+                      133.8
+                    ],
+                    [
+                      27.54,
+                      135.6
+                    ],
+                    [
+                      28.61,
+                      137.3
+                    ],
+                    [
+                      29.67,
+                      138.7
+                    ],
+                    [
+                      30.74,
+                      140.4
+                    ],
+                    [
+                      31.81,
+                      141.7
+                    ],
+                    [
+                      32.88,
+                      143.4
+                    ],
+                    [
+                      33.95,
+                      144.5
+                    ],
+                    [
+                      35.03,
+                      146.0
+                    ],
+                    [
+                      36.11,
+                      147.1
+                    ],
+                    [
+                      37.2,
+                      148.3
+                    ],
+                    [
+                      38.28,
+                      149.6
+                    ],
+                    [
+                      39.36,
+                      150.4
+                    ],
+                    [
+                      40.45,
+                      151.5
+                    ],
+                    [
+                      41.54,
+                      152.2
+                    ],
+                    [
+                      42.62,
+                      153.3
+                    ],
+                    [
+                      43.71,
+                      153.9
+                    ],
+                    [
+                      44.8,
+                      154.8
+                    ],
+                    [
+                      45.89,
+                      155.3
+                    ],
+                    [
+                      46.98,
+                      156.1
+                    ],
+                    [
+                      48.0,
+                      156.5
+                    ]
+                  ],
+                  "titik_tampak": false
+                },
+                {
+                  "nama": "K06 (6 × 2, 12 tiang)",
+                  "titik": [
+                    [
+                      10.0,
+                      75.6
+                    ],
+                    [
+                      10.12,
+                      75.5
+                    ],
+                    [
+                      10.44,
+                      75.8
+                    ],
+                    [
+                      11.44,
+                      76.3
+                    ],
+                    [
+                      12.11,
+                      76.6
+                    ],
+                    [
+                      12.77,
+                      76.9
+                    ],
+                    [
+                      13.44,
+                      77.1
+                    ],
+                    [
+                      14.1,
+                      77.3
+                    ],
+                    [
+                      14.77,
+                      77.5
+                    ],
+                    [
+                      15.1,
+                      77.6
+                    ],
+                    [
+                      15.76,
+                      77.8
+                    ],
+                    [
+                      16.09,
+                      77.9
+                    ],
+                    [
+                      19.74,
+                      78.6
+                    ],
+                    [
+                      23.06,
+                      79.2
+                    ],
+                    [
+                      26.37,
+                      79.6
+                    ],
+                    [
+                      29.68,
+                      79.9
+                    ],
+                    [
+                      33.0,
+                      80.2
+                    ],
+                    [
+                      36.31,
+                      80.5
+                    ],
+                    [
+                      42.45,
+                      81.0
+                    ]
+                  ],
+                  "putus": true
+                }
+              ],
+              "keterangan": "Data K06 diambil dari langkah yang tersimpan di Output PLAXIS, mulai perpindahan 10 mm."
+            }
+          ]
+        },
+        {
+          "judul": "4. Prediksi dibanding hasil uji",
+          "teks": [
+            "Uji model fisik di babak final memberi bacaan load cell tertinggi 445,18 N, di atas semua batas prediksi, paling dekat dengan Kapasitas A kepala jepit. Beban puncak belum tercapai karena gerak alat diturunkan panitia."
+          ],
+          "grafik": [
+            {
+              "tipe": "batang",
+              "judul": "Kapasitas K01: prediksi Excel dan bacaan uji (beban 10 mm di atas dasar pilecap)",
+              "x": "Beban lateral (N)",
+              "satuan": "N",
+              "sorot": [
+                "Hasil uji"
+              ],
+              "label": [
+                "Kapasitas A jepit",
+                "Kapasitas B jepit",
+                "Kapasitas A bebas",
+                "Kapasitas B bebas",
+                "Hasil uji"
+              ],
+              "seri": [
+                {
+                  "nama": "Beban",
+                  "nilai": [
+                    438.75,
+                    269.65,
+                    219.37,
+                    185.54,
+                    445.18
+                  ]
+                }
+              ],
+              "keterangan": "Kapasitas A dan B adalah dua kriteria batas dari analisis p-y; Kapasitas B = nilai terkecil antara batas kurva dan beban saat momen tiang mencapai momen plastis Mp. Hasil uji = bacaan load cell tertinggi, bukan beban puncak."
+            }
+          ]
+        },
+        {
+          "judul": "5. Isi berkas Excel perhitungan",
+          "teks": [
+            "Satu buku kerja berformula yang dibangun dengan skrip, sehingga setiap angka bisa ditelusuri ke sumbernya:"
+          ],
+          "tabel": [
+            {
+              "kolom": [
+                "Lembar",
+                "Isi"
+              ],
+              "baris": [
+                [
+                  "MULAI",
+                  "Petunjuk pemakaian dan daftar lembar"
+                ],
+                [
+                  "NOTASI",
+                  "Simbol, satuan, dan sumber rumus"
+                ],
+                [
+                  "1 DATA",
+                  "Data soal: tiang HDPE, pilecap, tanah uji, hasil uji tarik HDPE"
+                ],
+                [
+                  "2 KANDIDAT",
+                  "Sebelas susunan kandidat, pemotongan batang, dan jarak tiang"
+                ],
+                [
+                  "3 ISIAN PROGRAM",
+                  "Masukan untuk program p-y per kandidat"
+                ],
+                [
+                  "4 HASIL",
+                  "Kapasitas tiap kandidat, kepala jepit dan bebas, beserta peringkat"
+                ],
+                [
+                  "5 VERIFIKASI",
+                  "Pemeriksaan silang hasil program dan hitungan tangan"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "sampul": "kurva-plaxis-k01-k06.webp"
+    },
+    {
+      "id": "igc-2026-tahap-1",
+      "status": "publik",
+      "unggulan": true,
+      "judul": "Back-analysis dan optimasi kelompok 12 tiang dengan PLAXIS 3D",
+      "acara": "Indonesian Geotechnical Challenge (IGC) 2026, HATTI, tahap penyisihan",
+      "tahun": 2026,
+      "jenis": [
+        "Lomba",
+        "Pemodelan",
+        "Perhitungan"
+      ],
+      "hasil_singkat": "Peringkat 1 dari 5 finalis tahap pertama",
+      "peran": "Anggota tim HIMATESI UNJA (3 orang).",
+      "ringkas": "Model elemen hingga 3D kelompok 12 tiang baja dikalibrasi terhadap uji beban lateral lapangan sampai selisihnya 0,82 %, lalu dipakai untuk membaca gaya tiap tiang dan mencari tiang mana yang bisa dihilangkan atau dipendekkan.",
+      "masalah": "Studi kasus panitia: dua belas tiang baja kotak berongga (lebar 430 mm, tertanam 11,15 m) dipasang dengan cara ditekan (jacked-in) ke tanah pasir dan diberi beban lateral sampai 2.300 kN. Data yang diberikan: kurva uji pembebanan lateral, spesifikasi tiang dan pile cap, parameter tanah, dan hasil uji triaksial CD. Soal terdiri dari empat bagian: back-analysis, arah tarik dibanding dorong, optimasi jumlah tiang, dan optimasi panjang tiang.",
+      "perangkat_lunak": [
+        "PLAXIS 3D",
+        "Microsoft Excel"
+      ],
+      "bagian": [
+        {
+          "judul": "1. Parameter tanah dari uji triaksial",
+          "teks": [
+            "Kurva triaksial CD (σ3′ = 100 kPa) memuncak pada q = 270,27 kPa di regangan 4,60 %. Modulus sekan pada setengah tegangan puncak memberi E50 = 28.541,53 kPa (dibulatkan 28.550 kPa); karena tegangan sel sama dengan pref, E50 = E50,ref. Lingkaran Mohr memberi φ′ = 35,08° (dipakai 35°), di antara φ kritis 32° dan φ puncak 37°, jadi lolos uji kewajaran."
+          ],
+          "tabel": [
+            {
+              "judul": "Parameter awal tanah pasir untuk model Hardening Soil",
+              "kolom": [
+                "Parameter",
+                "Nilai",
+                "Satuan",
+                "Dasar"
+              ],
+              "baris": [
+                [
+                  "γ",
+                  "14,50",
+                  "kN/m³",
+                  "Data soal"
+                ],
+                [
+                  "e awal",
+                  "0,83",
+                  "-",
+                  "Data soal"
+                ],
+                [
+                  "E50,ref",
+                  "28.550",
+                  "kN/m²",
+                  "Kurva triaksial CD"
+                ],
+                [
+                  "Eoed,ref",
+                  "28.550",
+                  "kN/m²",
+                  "= E50,ref"
+                ],
+                [
+                  "Eur,ref",
+                  "85.650",
+                  "kN/m²",
+                  "3 × E50,ref (Brinkgreve dkk., 2019)"
+                ],
+                [
+                  "m",
+                  "0,5",
+                  "-",
+                  "Nilai baku pasir"
+                ],
+                [
+                  "φ′",
+                  "35",
+                  "°",
+                  "Lingkaran Mohr"
+                ],
+                [
+                  "ψ",
+                  "5",
+                  "°",
+                  "φ′ − 30° (Bolton, 1986)"
+                ],
+                [
+                  "K0",
+                  "0,426",
+                  "-",
+                  "1 − sin φ′ (Jaky, 1944)"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "judul": "2. Model PLAXIS 3D",
+          "teks": [
+            "Tanah dimodelkan dengan Hardening Soil, tiang sebagai elemen plate berongga, dan pile cap 6,88 × 5,59 × 1,00 m dengan kepala tiang jepit. Perhitungan dibagi tiga tahap: kondisi awal (prosedur K0), pemasangan tiang, lalu beban lateral bertahap."
+          ],
+          "gambar": [
+            {
+              "berkas": "model-plaxis-geometri.webp",
+              "keterangan": "Geometri model kelompok tiang di PLAXIS 3D."
+            },
+            {
+              "berkas": "model-plaxis-mesh.webp",
+              "keterangan": "Jejaring elemen (mesh) tanah, tiang, dan pile cap."
+            }
+          ]
+        },
+        {
+          "judul": "3. Kalibrasi terhadap uji lapangan",
+          "teks": [
+            "Model awal terlalu kaku: perpindahan pada 2.300 kN hanya 51,41 mm, padahal lapangan 82,00 mm. Kalibrasi dibatasi satu variabel, yaitu faktor pengali kekakuan f, supaya hasilnya bisa dijelaskan. Pada iterasi ketiga (f = 0,485, E50,ref = 13.850 kPa) RMSE turun dari 16,85 mm ke 0,61 mm."
+          ],
+          "grafik": [
+            {
+              "tipe": "garis",
+              "judul": "Kurva beban–perpindahan: lapangan dan tiga iterasi model",
+              "x": "Perpindahan lateral u (mm)",
+              "y": "Beban lateral H (kN)",
+              "seri": [
+                {
+                  "nama": "Uji lapangan",
+                  "titik": [
+                    [
+                      4.18,
+                      230
+                    ],
+                    [
+                      9.65,
+                      460
+                    ],
+                    [
+                      16.2,
+                      690
+                    ],
+                    [
+                      23.28,
+                      920
+                    ],
+                    [
+                      31.2,
+                      1150
+                    ],
+                    [
+                      39.69,
+                      1380
+                    ],
+                    [
+                      48.64,
+                      1610
+                    ],
+                    [
+                      58.69,
+                      1840
+                    ],
+                    [
+                      69.84,
+                      2070
+                    ],
+                    [
+                      82.0,
+                      2300
+                    ]
+                  ]
+                },
+                {
+                  "nama": "Iterasi 1",
+                  "putus": true,
+                  "titik": [
+                    [
+                      3.05,
+                      230
+                    ],
+                    [
+                      6.65,
+                      460
+                    ],
+                    [
+                      10.72,
+                      690
+                    ],
+                    [
+                      15.18,
+                      920
+                    ],
+                    [
+                      20.03,
+                      1150
+                    ],
+                    [
+                      25.24,
+                      1380
+                    ],
+                    [
+                      30.87,
+                      1610
+                    ],
+                    [
+                      37.01,
+                      1840
+                    ],
+                    [
+                      43.82,
+                      2070
+                    ],
+                    [
+                      51.41,
+                      2300
+                    ]
+                  ]
+                },
+                {
+                  "nama": "Iterasi 2",
+                  "putus": true,
+                  "titik": [
+                    [
+                      4.35,
+                      230
+                    ],
+                    [
+                      9.36,
+                      460
+                    ],
+                    [
+                      14.95,
+                      690
+                    ],
+                    [
+                      21.09,
+                      920
+                    ],
+                    [
+                      27.75,
+                      1150
+                    ],
+                    [
+                      34.97,
+                      1380
+                    ],
+                    [
+                      42.83,
+                      1610
+                    ],
+                    [
+                      51.51,
+                      1840
+                    ],
+                    [
+                      61.26,
+                      2070
+                    ],
+                    [
+                      72.22,
+                      2300
+                    ]
+                  ]
+                },
+                {
+                  "nama": "Iterasi 3 (final)",
+                  "putus": false,
+                  "titik": [
+                    [
+                      4.99,
+                      230
+                    ],
+                    [
+                      10.7,
+                      460
+                    ],
+                    [
+                      17.05,
+                      690
+                    ],
+                    [
+                      24.03,
+                      920
+                    ],
+                    [
+                      31.6,
+                      1150
+                    ],
+                    [
+                      39.83,
+                      1380
+                    ],
+                    [
+                      48.83,
+                      1610
+                    ],
+                    [
+                      58.79,
+                      1840
+                    ],
+                    [
+                      70.02,
+                      2070
+                    ],
+                    [
+                      82.68,
+                      2300
+                    ]
+                  ]
+                }
+              ],
+              "tabel": {
+                "kolom": [
+                  "H (kN)",
+                  "u lapangan (mm)",
+                  "Iterasi 1",
+                  "Iterasi 2",
+                  "Iterasi 3"
+                ],
+                "baris": [
+                  [
+                    230,
+                    4.18,
+                    3.05,
+                    4.35,
+                    4.99
+                  ],
+                  [
+                    460,
+                    9.65,
+                    6.65,
+                    9.36,
+                    10.7
+                  ],
+                  [
+                    690,
+                    16.2,
+                    10.72,
+                    14.95,
+                    17.05
+                  ],
+                  [
+                    920,
+                    23.28,
+                    15.18,
+                    21.09,
+                    24.03
+                  ],
+                  [
+                    1150,
+                    31.2,
+                    20.03,
+                    27.75,
+                    31.6
+                  ],
+                  [
+                    1380,
+                    39.69,
+                    25.24,
+                    34.97,
+                    39.83
+                  ],
+                  [
+                    1610,
+                    48.64,
+                    30.87,
+                    42.83,
+                    48.83
+                  ],
+                  [
+                    1840,
+                    58.69,
+                    37.01,
+                    51.51,
+                    58.79
+                  ],
+                  [
+                    2070,
+                    69.84,
+                    43.82,
+                    61.26,
+                    70.02
+                  ],
+                  [
+                    2300,
+                    82.0,
+                    51.41,
+                    72.22,
+                    82.68
+                  ]
+                ]
+              }
+            }
+          ],
+          "tabel": [
+            {
+              "judul": "Rekap iterasi kalibrasi",
+              "kolom": [
+                "Iterasi",
+                "f",
+                "E50,ref (kN/m²)",
+                "u pada 2.300 kN (mm)",
+                "Selisih",
+                "RMSE (mm)"
+              ],
+              "baris": [
+                [
+                  "1 (tanpa kalibrasi)",
+                  "1,000",
+                  "28.550",
+                  "51,41",
+                  "−37,30 %",
+                  "16,85"
+                ],
+                [
+                  "2",
+                  "0,590",
+                  "16.850",
+                  "72,22",
+                  "−11,93 %",
+                  "5,43"
+                ],
+                [
+                  "3 (final)",
+                  "0,485",
+                  "13.850",
+                  "82,68",
+                  "+0,82 %",
+                  "0,61"
+                ]
+              ],
+              "sorot_baris": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "judul": "4. Gaya tiap tiang dan efek naungan",
+          "teks": [
+            "Pembacaan gaya diuji dengan kesetimbangan: jumlah gaya geser dua belas tiang 2.300,23 kN (selisih 0,010 % dari beban luar). Baris terdepan searah gerak memikul paling besar karena menekan tanah yang belum terganggu (efek naungan, Rollins dkk., 2005), dan tiang di kolom tepi memikul 7–13 % lebih besar daripada kolom tengah.",
+            "Arah tarik dibanding dorong: selisih perpindahan paling besar 0,041 %, jadi untuk susunan simetris ini arah beban tidak berpengaruh."
+          ],
+          "denah": {
+            "kode_rc": true,
+            "besar": true,
+            "satuan": "kN",
+            "keterangan": "Warna makin pekat = gaya geser makin besar. Beban dari kiri; R4 baris terdepan. Arahkan kursor ke tiang untuk melihat angkanya.",
+            "konfigurasi": [
+              {
+                "kode": "Gaya geser tiap tiang",
+                "ket": "pada H = 2.300 kN",
+                "baris": 3,
+                "kolom": 4,
+                "nilai": [
+                  [
+                    150.5,
+                    155.99,
+                    191.74,
+                    292.4
+                  ],
+                  [
+                    133.33,
+                    143.1,
+                    174.88,
+                    270.75
+                  ],
+                  [
+                    149.7,
+                    157.78,
+                    191.58,
+                    288.48
+                  ]
+                ]
+              }
+            ]
+          },
+          "grafik": [
+            {
+              "tipe": "batang",
+              "judul": "Rata-rata gaya geser per baris (H = 2.300 kN)",
+              "x": "Gaya geser rata-rata (kN)",
+              "satuan": "kN",
+              "label": [
+                "R4 (terdepan)",
+                "R3",
+                "R2",
+                "R1 (paling belakang)"
+              ],
+              "seri": [
+                {
+                  "nama": "Q rata-rata",
+                  "nilai": [
+                    283.87,
+                    186.07,
+                    152.29,
+                    144.51
+                  ]
+                }
+              ]
+            },
+            {
+              "tipe": "batang",
+              "judul": "Gaya aksial tiap tiang (+ tarik, − tekan)",
+              "x": "Gaya aksial N (kN)",
+              "satuan": "kN",
+              "label": [
+                "R1C1",
+                "R1C2",
+                "R1C3",
+                "R2C1",
+                "R2C2",
+                "R2C3",
+                "R3C1",
+                "R3C2",
+                "R3C3",
+                "R4C1",
+                "R4C2",
+                "R4C3"
+              ],
+              "seri": [
+                {
+                  "nama": "N",
+                  "nilai": [
+                    596.49,
+                    503.88,
+                    585.5,
+                    260.66,
+                    145.8,
+                    259.95,
+                    -137.59,
+                    -71.88,
+                    -133.93,
+                    -712.54,
+                    -641.67,
+                    -727.4
+                  ]
+                }
+              ],
+              "keterangan": "Kopel aksial tiang depan (tekan) dan belakang (tarik) menahan momen guling sebesar 7.941 kNm."
+            }
+          ]
+        },
+        {
+          "judul": "5. Optimasi jumlah tiang: hilangkan 4 dari 12",
+          "teks": [
+            "Enam kombinasi diuji. K-6 memberi perpindahan terkecil, tetapi tidak simetris terhadap pembalikan arah beban, jadi yang dipilih K-2 (tepi luar dua baris tengah): perpindahan naik 19,1 % dengan empat tiang lebih sedikit. Kesimpulan penting: tiang dengan gaya geser terkecil belum tentu yang paling aman dibuang, karena kopel aksial penahan momen guling ikut menentukan."
+          ],
+          "denah": {
+            "kode_rc": true,
+            "keterangan": "Lingkaran putus = tiang dihilangkan. Bingkai tebal = kombinasi terpilih.",
+            "konfigurasi": [
+              {
+                "kode": "K-1",
+                "ket": "u = 157,08 mm",
+                "baris": 3,
+                "kolom": 4,
+                "hilang": [
+                  "R1C1",
+                  "R1C3",
+                  "R4C1",
+                  "R4C3"
+                ],
+                "pilih": false
+              },
+              {
+                "kode": "K-2",
+                "ket": "u = 98,44 mm",
+                "baris": 3,
+                "kolom": 4,
+                "hilang": [
+                  "R2C1",
+                  "R2C3",
+                  "R3C1",
+                  "R3C3"
+                ],
+                "pilih": true
+              },
+              {
+                "kode": "K-3",
+                "ket": "u = 109,16 mm",
+                "baris": 3,
+                "kolom": 4,
+                "hilang": [
+                  "R1C2",
+                  "R2C2",
+                  "R3C2",
+                  "R4C2"
+                ],
+                "pilih": false
+              },
+              {
+                "kode": "K-4",
+                "ket": "u = 144,46 mm",
+                "baris": 3,
+                "kolom": 4,
+                "hilang": [
+                  "R1C1",
+                  "R1C3",
+                  "R2C1",
+                  "R2C3"
+                ],
+                "pilih": false
+              },
+              {
+                "kode": "K-5",
+                "ket": "u = 137,19 mm",
+                "baris": 3,
+                "kolom": 4,
+                "hilang": [
+                  "R3C1",
+                  "R3C3",
+                  "R4C1",
+                  "R4C3"
+                ],
+                "pilih": false
+              },
+              {
+                "kode": "K-6",
+                "ket": "u = 98,05 mm",
+                "baris": 3,
+                "kolom": 4,
+                "hilang": [
+                  "R2C1",
+                  "R2C2",
+                  "R2C3",
+                  "R3C2"
+                ],
+                "pilih": false
+              }
+            ]
+          },
+          "grafik": [
+            {
+              "tipe": "batang",
+              "judul": "Perpindahan pile cap pada 2.300 kN (kontrol 12 tiang: 82,68 mm)",
+              "x": "Perpindahan u (mm)",
+              "satuan": "mm",
+              "sorot": [
+                "K-2"
+              ],
+              "label": [
+                "Kontrol",
+                "K-1",
+                "K-2",
+                "K-3",
+                "K-4 (tidak simetris)",
+                "K-5 (tidak simetris)",
+                "K-6 (tidak simetris)"
+              ],
+              "seri": [
+                {
+                  "nama": "u",
+                  "nilai": [
+                    82.68,
+                    157.08,
+                    98.44,
+                    109.16,
+                    144.46,
+                    137.19,
+                    98.05
+                  ]
+                }
+              ]
+            }
+          ],
+          "gambar": [
+            {
+              "berkas": "denah-k2.webp",
+              "keterangan": "Denah kombinasi K-2: delapan tiang tetap terpasang."
+            },
+            {
+              "berkas": "deformed-mesh-k2.webp",
+              "keterangan": "Deformed mesh kombinasi K-2 hasil PLAXIS 3D."
+            }
+          ]
+        },
+        {
+          "judul": "6. Optimasi panjang tiang: pendekkan 6 dari 12",
+          "teks": [
+            "Delapan kombinasi memendekkan enam tiang dari 11,15 m menjadi 5,55 m. P-7 (dua baris tengah dipendekkan) memberi kenaikan perpindahan terkecil, 20,3 %, dan lolos kedua syarat kesimetrian. Hasilnya sejalan dengan Part 3: baris tengah paling sedikit menyumbang kekakuan."
+          ],
+          "denah": {
+            "kode_rc": true,
+            "keterangan": "Lingkaran berwarna = tiang dipendekkan menjadi 5,55 m. Bingkai tebal = kombinasi terpilih.",
+            "konfigurasi": [
+              {
+                "kode": "P-1",
+                "ket": "u = 128,82 mm",
+                "baris": 3,
+                "kolom": 4,
+                "pendek": [
+                  "R3C1",
+                  "R3C2",
+                  "R3C3",
+                  "R4C1",
+                  "R4C2",
+                  "R4C3"
+                ],
+                "pilih": false
+              },
+              {
+                "kode": "P-2",
+                "ket": "u = 186,79 mm",
+                "baris": 3,
+                "kolom": 4,
+                "pendek": [
+                  "R1C1",
+                  "R1C2",
+                  "R1C3",
+                  "R2C1",
+                  "R2C2",
+                  "R2C3"
+                ],
+                "pilih": false
+              },
+              {
+                "kode": "P-3",
+                "ket": "u = 112,18 mm",
+                "baris": 3,
+                "kolom": 4,
+                "pendek": [
+                  "R2C1",
+                  "R2C3",
+                  "R3C1",
+                  "R3C3",
+                  "R4C1",
+                  "R4C3"
+                ],
+                "pilih": false
+              },
+              {
+                "kode": "P-4",
+                "ket": "u = 126,64 mm",
+                "baris": 3,
+                "kolom": 4,
+                "pendek": [
+                  "R1C2",
+                  "R2C2",
+                  "R3C2",
+                  "R4C2",
+                  "R4C1",
+                  "R4C3"
+                ],
+                "pilih": false
+              },
+              {
+                "kode": "P-5",
+                "ket": "u = 138,41 mm",
+                "baris": 3,
+                "kolom": 4,
+                "pendek": [
+                  "R1C1",
+                  "R1C3",
+                  "R2C1",
+                  "R2C3",
+                  "R3C1",
+                  "R3C3"
+                ],
+                "pilih": false
+              },
+              {
+                "kode": "P-6",
+                "ket": "u = 120,81 mm",
+                "baris": 3,
+                "kolom": 4,
+                "pendek": [
+                  "R1C1",
+                  "R1C3",
+                  "R2C2",
+                  "R3C1",
+                  "R3C3",
+                  "R4C2"
+                ],
+                "pilih": false
+              },
+              {
+                "kode": "P-7",
+                "ket": "u = 99,44 mm",
+                "baris": 3,
+                "kolom": 4,
+                "pendek": [
+                  "R2C1",
+                  "R2C2",
+                  "R2C3",
+                  "R3C1",
+                  "R3C2",
+                  "R3C3"
+                ],
+                "pilih": true
+              },
+              {
+                "kode": "P-8",
+                "ket": "u = 109,82 mm",
+                "baris": 3,
+                "kolom": 4,
+                "pendek": [
+                  "R1C2",
+                  "R2C1",
+                  "R2C3",
+                  "R3C1",
+                  "R3C3",
+                  "R4C2"
+                ],
+                "pilih": false
+              }
+            ]
+          },
+          "grafik": [
+            {
+              "tipe": "batang",
+              "judul": "Perpindahan pile cap pada 2.300 kN (kontrol: 82,68 mm)",
+              "x": "Perpindahan u (mm)",
+              "satuan": "mm",
+              "sorot": [
+                "P-7"
+              ],
+              "label": [
+                "Kontrol",
+                "P-1 (tidak simetris)",
+                "P-2 (tidak simetris)",
+                "P-3 (tidak simetris)",
+                "P-4 (tidak simetris)",
+                "P-5 (tidak simetris)",
+                "P-6 (tidak simetris)",
+                "P-7",
+                "P-8"
+              ],
+              "seri": [
+                {
+                  "nama": "u",
+                  "nilai": [
+                    82.68,
+                    128.82,
+                    186.79,
+                    112.18,
+                    126.64,
+                    138.41,
+                    120.81,
+                    99.44,
+                    109.82
+                  ]
+                }
+              ]
+            }
+          ],
+          "gambar": [
+            {
+              "berkas": "denah-p7.webp",
+              "keterangan": "Denah kombinasi P-7."
+            },
+            {
+              "berkas": "deformed-mesh-p7.webp",
+              "keterangan": "Deformed mesh kombinasi P-7 hasil PLAXIS 3D."
+            }
+          ]
+        },
+        {
+          "judul": "7. Yang dipelajari",
+          "poin": [
+            "Angka keluaran program diperiksa dengan kesetimbangan gaya sebelum dipakai.",
+            "Kalibrasi dengan satu variabel bebas memberi hasil yang bisa dijelaskan; terlalu banyak variabel membuat kecocokan sulit dipertanggungjawabkan.",
+            "Selisih model awal dengan lapangan sebagian dijelaskan oleh gangguan tanah saat pemasangan tiang.",
+            "Engineering judgement: memilih tiang yang dibuang tidak cukup dari peringkat gaya geser saja."
+          ]
+        }
+      ],
+      "catatan": "Gambar dan angka dari laporan tim untuk tahap penyisihan. Menurut TOR IGC 2026, hak cipta karya peserta milik panitia; laporan lengkap tersedia atas permintaan."
     },
     {
       "id": "lomba-lereng-2026",
@@ -178,7 +1595,8 @@
           "berkas": "ded-samar.webp",
           "keterangan": "Salah satu lembar DED, dikaburkan sampai lomba selesai."
         }
-      ]
+      ],
+      "sampul": "ded-samar.webp"
     },
     {
       "id": "geosr",
@@ -227,7 +1645,8 @@
           "berkas": "tangkapan-beranda-gelap.webp",
           "keterangan": "Beranda GeoSR, tema gelap."
         }
-      ]
+      ],
+      "sampul": "tangkapan-beranda.webp"
     },
     {
       "id": "asisten-lab",
@@ -257,7 +1676,7 @@
         }
       ],
       "media": [],
-      "unggulan": true
+      "unggulan": false
     },
     {
       "id": "kerja-praktik",
@@ -266,20 +1685,19 @@
       "acara": "Proyek gedung pusat perbelanjaan di Sumatra, di pihak kontraktor pelaksana",
       "tahun": 2026,
       "jenis": [
-        "Kerja praktik"
+        "Kerja praktik",
+        "Perhitungan"
       ],
       "hasil_singkat": "1 Juli – 1 September 2026",
       "peran": "Mahasiswa kerja praktik, bagian Quality Control.",
-      "ringkas": "Membantu pengawasan dan inspeksi pekerjaan fondasi tiang bor, pile cap, ground water tank, serta pembesian balok dan pelat lantai.",
+      "ringkas": "Membantu pengawasan pekerjaan fondasi tiang bor, pile cap, dan struktur bawah, lalu menganalisis produktivitas tujuh alat berat dari pengamatan waktu siklus di lapangan.",
       "masalah": "",
-      "langkah": [
-        "Pengawasan dan inspeksi pekerjaan fondasi tiang bor (bored pile) dan pile cap.",
-        "Pengawasan pekerjaan ground water tank.",
-        "Inspeksi pembesian balok dan pelat lantai."
-      ],
+      "langkah": [],
       "angka": [],
-      "catatan": "Nama proyek, pemilik, dan data uji tidak ditampilkan karena milik instansi. Label benda uji, stiker kalibrasi, dan layar alat di foto dikaburkan.",
-      "perangkat_lunak": [],
+      "catatan": "Nama proyek, pemilik, kontraktor, dan data uji milik instansi tidak ditampilkan. Angka produktivitas adalah hasil pengamatan dan pengolahan saya sendiri. Label benda uji, stiker kalibrasi, dan layar alat di foto dikaburkan.",
+      "perangkat_lunak": [
+        "Microsoft Excel"
+      ],
       "media": [
         {
           "berkas": "uji-integritas-tiang.webp",
@@ -293,7 +1711,173 @@
           "berkas": "bekisting-kolom.webp",
           "keterangan": "Bekisting kolom sebelum pengecoran."
         }
-      ]
+      ],
+      "bagian": [
+        {
+          "judul": "Pekerjaan yang diawasi",
+          "poin": [
+            "Fondasi tiang bor D800 panjang 12 m, beton f′c 25 MPa, tulangan 14D22 dengan sengkang spiral D13; bore log dicatat tiap 2 m.",
+            "Pile cap, fondasi tapak, tie beam, dan galian ground water tank dengan dinding shotcrete.",
+            "Uji slump beton segar dan pemeriksaan surat jalan material di lapangan.",
+            "Hitungan volume galian dan bill of quantity tulangan untuk pekerjaan harian."
+          ]
+        },
+        {
+          "judul": "Tinjauan khusus: produktivitas tujuh alat berat",
+          "teks": [
+            "Waktu siklus tiap alat dicatat di lapangan, lalu produktivitas teoretis dan aktual dihitung dengan persamaan Permen PUPR Nomor 8 Tahun 2023. Utilisasi U = waktu operasi ÷ waktu pengamatan. Persentase antaralat tidak diperingkat langsung karena jendela waktunya berbeda (480 menit; truck mixer 210 menit; concrete pump 107,60 menit)."
+          ],
+          "grafik": [
+            {
+              "tipe": "batang",
+              "judul": "Utilisasi waktu tiap alat",
+              "x": "Utilisasi U (%)",
+              "satuan": "%",
+              "label": [
+                "Excavator",
+                "Mini excavator",
+                "Dump truck (per unit)",
+                "Truck mixer",
+                "Rotary drilling rig",
+                "Tower crane",
+                "Concrete pump"
+              ],
+              "seri": [
+                {
+                  "nama": "U",
+                  "nilai": [
+                    72.92,
+                    72.71,
+                    75.0,
+                    63.81,
+                    72.92,
+                    68.75,
+                    54.0
+                  ]
+                }
+              ]
+            }
+          ],
+          "tabel": [
+            {
+              "judul": "Rekap produktivitas dan utilisasi",
+              "kolom": [
+                "Alat",
+                "Sampel",
+                "Laju dasar",
+                "Laju aktual",
+                "Satuan",
+                "Waktu",
+                "U (%)"
+              ],
+              "baris": [
+                [
+                  "Excavator",
+                  "30 siklus",
+                  "127,99",
+                  "93,33",
+                  "m³/jam",
+                  "480 menit",
+                  "72,92"
+                ],
+                [
+                  "Mini excavator",
+                  "30 siklus",
+                  "56,57",
+                  "41,13",
+                  "m³/jam",
+                  "480 menit",
+                  "72,71"
+                ],
+                [
+                  "Dump truck (per unit)",
+                  "15 rit",
+                  "15,145",
+                  "11,359",
+                  "m³/jam",
+                  "480 menit",
+                  "75,00"
+                ],
+                [
+                  "Truck mixer",
+                  "3 rit",
+                  "21,69",
+                  "13,84",
+                  "m³/jam",
+                  "210 menit",
+                  "63,81"
+                ],
+                [
+                  "Rotary drilling rig",
+                  "15 putaran",
+                  "9,83",
+                  "7,17",
+                  "m/jam",
+                  "480 menit",
+                  "72,92"
+                ],
+                [
+                  "Tower crane",
+                  "3 angkatan",
+                  "5,37",
+                  "3,69",
+                  "angkatan/jam",
+                  "480 menit",
+                  "68,75"
+                ],
+                [
+                  "Concrete pump",
+                  "3 muatan",
+                  "21,69",
+                  "11,71",
+                  "m³/jam",
+                  "107,60 menit",
+                  "54,00"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "judul": "Rantai produksi dan keserasian armada",
+          "teks": [
+            "Produktivitas sistem pekerjaan tanah ditentukan alat terkecil dalam rantai: tiga dump truck (34,077 m³/jam) di bawah excavator (93,33 m³/jam). Model memberi 272,616 m³/hari, selisih 3,33 % dari catatan ritase lapangan 282,000 m³/hari. Faktor keserasian (match factor) tiga unit hanya 0,637, jadi excavator masih menunggu armada."
+          ],
+          "grafik": [
+            {
+              "tipe": "batang",
+              "judul": "Match factor armada dump truck terhadap satu excavator",
+              "x": "Match factor (1,0 = serasi penuh)",
+              "sorot": [
+                "4 unit (usulan bertahap)"
+              ],
+              "label": [
+                "3 unit (di lapangan)",
+                "4 unit (usulan bertahap)",
+                "5 unit"
+              ],
+              "seri": [
+                {
+                  "nama": "MF",
+                  "nilai": [
+                    0.637,
+                    0.85,
+                    1.062
+                  ]
+                }
+              ]
+            }
+          ],
+          "poin": [
+            "Tambah dump truck keempat secara bertahap (MF 0,850), ukur ulang antrean sebelum menambah unit kelima.",
+            "Atur interval kedatangan truck mixer 18–20 menit sesuai waktu tuang rata-rata 19,37 menit untuk menghindari cold joint.",
+            "Siapkan material dan rigging sebelum slot angkat tower crane; waktu tunggu tercatat 65 menit per hari.",
+            "Pasang casing sementara sejak awal pada lapisan rentan runtuh di lubang bor."
+          ]
+        }
+      ],
+      "sampul": "uji-integritas-tiang.webp",
+      "unggulan": true
     },
     {
       "id": "asisten-dosen",
@@ -366,7 +1950,170 @@
           "berkas": "diagram-alur-metode.webp",
           "keterangan": "Diagram alur metode kajian."
         }
-      ]
+      ],
+      "bagian": [
+        {
+          "judul": "Indeks risiko per kecamatan",
+          "teks": [
+            "Indeks risiko R dihitung dari indeks bahaya H, kerentanan V, dan kapasitas C per kecamatan (Perka BNPB Nomor 2 Tahun 2012), lalu tingkat risikonya dibaca dari matriks bahaya–kerentanan–kapasitas. Semua hitungan ada di buku kerja Excel tujuh lembar: data, parameter, bahaya, kerentanan, kapasitas, risiko, dan rekap."
+          ],
+          "grafik": [
+            {
+              "tipe": "batang",
+              "judul": "Indeks risiko karhutla (versi B) per kecamatan",
+              "x": "Indeks risiko R",
+              "sorot": [
+                "Kumpeh",
+                "Sungai Gelam",
+                "Jambi Luar Kota",
+                "Sungai Bahar"
+              ],
+              "label": [
+                "Kumpeh",
+                "Sungai Gelam",
+                "Jambi Luar Kota",
+                "Sungai Bahar",
+                "Sekernan",
+                "Kumpeh Ulu",
+                "Maro Sebo",
+                "Mestong",
+                "Bahar Selatan",
+                "Bahar Utara",
+                "Taman Rajo"
+              ],
+              "seri": [
+                {
+                  "nama": "R",
+                  "nilai": [
+                    0.572,
+                    0.572,
+                    0.556,
+                    0.539,
+                    0.536,
+                    0.53,
+                    0.504,
+                    0.496,
+                    0.474,
+                    0.471,
+                    0.459
+                  ]
+                }
+              ],
+              "keterangan": "Batang tebal = tingkat risiko tinggi menurut matriks Perka."
+            }
+          ],
+          "tabel": [
+            {
+              "judul": "Rekap indeks per kecamatan",
+              "kolom": [
+                "Kecamatan",
+                "H",
+                "V (B)",
+                "C",
+                "R (B)",
+                "Tingkat risiko"
+              ],
+              "baris": [
+                [
+                  "Kumpeh",
+                  "0,539",
+                  "0,668",
+                  "0,480",
+                  "0,572",
+                  "Tinggi"
+                ],
+                [
+                  "Sungai Gelam",
+                  "0,557",
+                  "0,646",
+                  "0,480",
+                  "0,572",
+                  "Tinggi"
+                ],
+                [
+                  "Jambi Luar Kota",
+                  "0,525",
+                  "0,631",
+                  "0,480",
+                  "0,556",
+                  "Tinggi"
+                ],
+                [
+                  "Sungai Bahar",
+                  "0,566",
+                  "0,533",
+                  "0,480",
+                  "0,539",
+                  "Tinggi"
+                ],
+                [
+                  "Sekernan",
+                  "0,533",
+                  "0,555",
+                  "0,480",
+                  "0,536",
+                  "Sedang"
+                ],
+                [
+                  "Kumpeh Ulu",
+                  "0,522",
+                  "0,550",
+                  "0,480",
+                  "0,530",
+                  "Sedang"
+                ],
+                [
+                  "Maro Sebo",
+                  "0,548",
+                  "0,450",
+                  "0,480",
+                  "0,504",
+                  "Sedang"
+                ],
+                [
+                  "Mestong",
+                  "0,480",
+                  "0,488",
+                  "0,480",
+                  "0,496",
+                  "Sedang"
+                ],
+                [
+                  "Bahar Selatan",
+                  "0,502",
+                  "0,409",
+                  "0,480",
+                  "0,474",
+                  "Sedang"
+                ],
+                [
+                  "Bahar Utara",
+                  "0,493",
+                  "0,408",
+                  "0,480",
+                  "0,471",
+                  "Sedang"
+                ],
+                [
+                  "Taman Rajo",
+                  "0,483",
+                  "0,384",
+                  "0,480",
+                  "0,459",
+                  "Sedang"
+                ]
+              ],
+              "sorot_baris": [
+                0,
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        }
+      ],
+      "sampul": "peta-tingkat-risiko.webp"
     }
   ]
 }

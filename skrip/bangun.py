@@ -11,6 +11,9 @@ import shutil
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import sajian  # noqa: E402
+
 AKAR = Path(__file__).resolve().parent.parent
 SIAP = AKAR.parent / "02 Siap Terbit"
 PRIVAT = "--privat" in sys.argv
@@ -104,8 +107,10 @@ def halaman(jalur, judul, isi, deskripsi=""):
 
 def kartu(k, awalan):
     jenis = " ".join(f'<span class="chip">{e(j)}</span>' for j in k["jenis"])
+    sampul = (f'  <div class="gambar-kartu"><img src="{awalan}{salin(k["id"], k["sampul"])}" alt="" loading="lazy"></div>\n'
+              if k.get("sampul") else "")
     return (f'<a class="kartu karya" href="{awalan}karya/{k["id"]}/index.html" data-jenis="{e("|".join(k["jenis"]))}">\n'
-            f'  <span class="tahun">{k["tahun"]}</span>\n'
+            + sampul + f'  <span class="tahun">{k["tahun"]}</span>\n'
             f'  <h3>{e(k["judul"])}{label_privat(k)}</h3>\n'
             f'  <p class="acara">{e(k["acara"])}</p>\n'
             f'  <p>{e(k["ringkas"])}</p>\n'
@@ -113,8 +118,14 @@ def kartu(k, awalan):
             f'  <p class="chips">{jenis}</p>\n</a>')
 
 
+def linimasa_butir(x):
+    ids = {k["id"] for k in KARYA}
+    judul = f'<a href="karya/{x["karya"]}/index.html">{e(x["judul"])}</a>' if x.get("karya") in ids else e(x["judul"])
+    return f'<li><span class="waktu">{e(x["waktu"])}</span><h3>{judul}</h3><p>{e(x["ket"])}</p></li>'
+
+
 def beranda():
-    unggul = [k for k in KARYA if k.get("unggulan")][:4]
+    unggul = [k for k in KARYA if k.get("unggulan")][:6]
     isi = f"""<section class="hero">
   <h1>{e(P['nama'])}</h1>
   <p class="lead">{e(P['ringkas'])}</p>
@@ -122,11 +133,17 @@ def beranda():
   <a class="tombol" href="cv/index.html">CV (bisa dicetak ke PDF)</a>
   <a class="tombol" href="https://github.com/{e(P['github'])}">Kontak lewat GitHub</a></p>
 </section>
+<ul class="angka-deret">{''.join(f'<li><b>{e(a["nilai"])}</b><span>{e(a["label"])}</span></li>' for a in P.get('angka', []))}</ul>
 <section>
   <h2>Karya unggulan</h2>
   <div class="kisi">
 {chr(10).join(kartu(k, '') for k in unggul)}
   </div>
+  <p class="aksi"><a class="tombol" href="karya/index.html">Semua karya ({len(KARYA)})</a></p>
+</section>
+<section>
+  <h2>Perjalanan</h2>
+  <ol class="linimasa">{''.join(linimasa_butir(x) for x in P.get('linimasa', []))}</ol>
 </section>"""
     halaman("index.html", f"{P['nama']}: portofolio teknik sipil", isi)
 
@@ -155,11 +172,36 @@ def media_html(k, m, awalan):
     return f'<figure><a href="{src}"><img src="{src}" alt="{e(m["keterangan"])}" loading="lazy"></a>{ket}</figure>'
 
 
+def bagian_html(k, b, a):
+    o = [f"<section class=\"bagian\"><h2>{e(b['judul'])}</h2>"]
+    teks = b.get("teks", [])
+    o += [f"<p>{e(t)}</p>" for t in ([teks] if isinstance(teks, str) else teks)]
+    if b.get("poin"):
+        o.append("<ul>" + "".join(f"<li>{e(x)}</li>" for x in b["poin"]) + "</ul>")
+    for g in b.get("grafik", []):
+        o.append(sajian.garis(g) if g.get("tipe", "garis") == "garis" else sajian.batang(g))
+    if b.get("denah"):
+        o.append(sajian.denah(b["denah"]))
+    for t in b.get("tabel", []):
+        o.append(sajian.tabel(t))
+    gambar = [m for m in b.get("gambar", []) if media_tampil(m)]
+    if gambar:
+        o.append('<div class="galeri">' + "".join(media_html(k, m, a) for m in gambar) + "</div>")
+    return "\n".join(o) + "</section>"
+
+
+def antar(k):
+    i = KARYA.index(k)
+    seb, ber = KARYA[i - 1], KARYA[(i + 1) % len(KARYA)]
+    return (f'<nav class="antar-karya" aria-label="Karya lain"><a class="tombol" href="../{seb["id"]}/index.html">Sebelumnya: {e(seb["judul"])}</a>'
+            f'<a class="tombol" href="../{ber["id"]}/index.html">Berikutnya: {e(ber["judul"])}</a></nav>')
+
+
 def halaman_karya(k):
     a = "../../"
-    blok = []
+    blok = [bagian_html(k, b, a) for b in k.get("bagian", [])]
     if k.get("masalah"):
-        blok.append(f"<h2>Masalah</h2>\n<p>{e(k['masalah'])}</p>")
+        blok.insert(0, f"<h2>Masalah</h2>\n<p>{e(k['masalah'])}</p>")
     if k.get("langkah"):
         blok.append("<h2>Yang dikerjakan</h2>\n<ul>" + "".join(f"<li>{e(x)}</li>" for x in k["langkah"]) + "</ul>")
     if k.get("angka"):
@@ -188,7 +230,8 @@ def halaman_karya(k):
   {f'<div><dt>Perangkat lunak</dt><dd>{e(sw)}</dd></div>' if sw else ''}
   <div><dt>Jenis</dt><dd>{e(', '.join(k['jenis']))}</dd></div>
 </dl>
-{chr(10).join(blok)}"""
+{chr(10).join(blok)}
+{antar(k)}"""
     halaman(f"karya/{k['id']}/index.html", f"{k['judul']}: {P['nama']}", isi, k["ringkas"])
 
 

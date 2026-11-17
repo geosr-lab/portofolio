@@ -42,6 +42,10 @@ JS_CEK = r"""
     const r = k.getBoundingClientRect();
     for (const e of k.querySelectorAll('*')) {
       if (!tampak(e)) continue;
+      // elemen di dalam wadah gulir (mis. tabel lebar) terpotong rapi oleh wadahnya, bukan keluar kartu
+      let p = e.parentElement, digulir = false;
+      while (p && p !== k) { if (/(auto|scroll|hidden)/.test(getComputedStyle(p).overflowX)) { digulir = true; break; } p = p.parentElement; }
+      if (digulir) continue;
       const q = e.getBoundingClientRect();
       if (q.right > r.right + 1 || q.left < r.left - 1) salah.push(`keluar kartu: ${nama(e)} di ${nama(k)}`);
     }
