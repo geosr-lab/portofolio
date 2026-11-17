@@ -7,3 +7,5 @@ Situs: https://geosr-lab.github.io/portofolio/ (GitHub Pages dari folder `docs/`
 - `python tests/verifikasi_tata_letak.py` menguji 375, 768, 1280, 1440 px, terang dan gelap.
 
 Huruf Archivo dan Plus Jakarta Sans (SIL OFL 1.1) disimpan lokal, tanpa CDN. Gaya mengikuti `DESIGN.md` repo GeoSR.
+
+![Beranda portofolio](tangkapan/beranda-terang.webp)

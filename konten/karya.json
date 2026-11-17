@@ -65,6 +65,7 @@
     "Perhitungan",
     "Pemodelan",
     "Gambar/DED",
+    "Kajian dan tugas kuliah",
     "Praktikum dan asisten lab",
     "Kerja praktik",
     "Alat (GeoSR)"
@@ -125,9 +126,8 @@
           "keterangan": "Kurva beban–perpindahan kelompok tiang hasil PLAXIS 3D (run 20 Oktober 2026): K01 3 × 3 menahan beban lebih besar daripada K06 6 × 2 pada perpindahan yang sama."
         },
         {
-          "berkas": "poster.webp",
-          "privat": true,
-          "keterangan": "Poster babak final (A0)."
+          "berkas": "poster-samar.webp",
+          "keterangan": "Poster babak final A0, sengaja dikaburkan: menurut TOR IGC 2026 hak cipta karya peserta milik panitia. Versi asli tersedia atas permintaan."
         }
       ],
       "unduhan": [
@@ -140,6 +140,43 @@
           "berkas": "poster-igc-tahap-2-2026---a0.pdf",
           "label": "Poster A0 (PDF)",
           "privat": true
+        }
+      ]
+    },
+    {
+      "id": "lomba-lereng-2026",
+      "status": "publik",
+      "unggulan": true,
+      "judul": "Proposal desain perkuatan lereng (sedang dinilai)",
+      "acara": "Lomba desain geoteknik tingkat nasional, tahap penyisihan",
+      "tahun": 2026,
+      "jenis": [
+        "Lomba",
+        "Perhitungan",
+        "Pemodelan",
+        "Gambar/DED"
+      ],
+      "hasil_singkat": "Sedang dinilai panitia; isi dibuka setelah pengumuman",
+      "peran": "Anggota tim.",
+      "ringkas": "Proposal desain perkuatan lereng lengkap: analisis stabilitas lereng, desain perkuatan, RAB, jadwal, sistem pemantauan, dan gambar DED 12 lembar.",
+      "masalah": "",
+      "langkah": [
+        "Analisis stabilitas lereng asli dan lereng yang diperkuat dengan dua perangkat lunak, ditambah pembanding hitungan tangan di Python.",
+        "Desain perkuatan, drainase, dan sistem pemantauan.",
+        "Volume, RAB, metode konstruksi, dan jadwal di Excel yang dibangun dengan skrip.",
+        "Gambar DED 12 lembar A3."
+      ],
+      "angka": [],
+      "catatan": "Isi proposal sengaja disembunyikan dan gambar di atas dikaburkan: aturan lomba mendiskualifikasi karya yang sudah dipublikasikan sebelum penilaian. Halaman ini akan dilengkapi setelah lomba selesai.",
+      "perangkat_lunak": [
+        "LibreCAD",
+        "Microsoft Excel",
+        "Python"
+      ],
+      "media": [
+        {
+          "berkas": "ded-samar.webp",
+          "keterangan": "Salah satu lembar DED, dikaburkan sampai lomba selesai."
         }
       ]
     },
@@ -241,22 +278,19 @@
         "Inspeksi pembesian balok dan pelat lantai."
       ],
       "angka": [],
-      "catatan": "Nama proyek, pemilik, dan data uji tidak ditampilkan karena milik instansi. Label benda uji di foto dikaburkan.",
+      "catatan": "Nama proyek, pemilik, dan data uji tidak ditampilkan karena milik instansi. Label benda uji, stiker kalibrasi, dan layar alat di foto dikaburkan.",
       "perangkat_lunak": [],
       "media": [
         {
           "berkas": "uji-integritas-tiang.webp",
-          "privat": true,
           "keterangan": "Uji integritas tiang (pile integrity test) di lapangan."
         },
         {
           "berkas": "uji-tekan-silinder.webp",
-          "privat": true,
           "keterangan": "Uji tekan benda uji silinder beton."
         },
         {
           "berkas": "bekisting-kolom.webp",
-          "privat": true,
           "keterangan": "Bekisting kolom sebelum pengecoran."
         }
       ]
@@ -280,6 +314,59 @@
       "catatan": "",
       "perangkat_lunak": [],
       "media": []
+    },
+    {
+      "id": "karhutla-muaro-jambi",
+      "status": "publik",
+      "judul": "Kajian risiko kebakaran hutan dan lahan di Kabupaten Muaro Jambi",
+      "acara": "Tugas besar mata kuliah Manajemen Bencana, Universitas Jambi",
+      "tahun": 2026,
+      "jenis": [
+        "Kajian dan tugas kuliah",
+        "Perhitungan"
+      ],
+      "hasil_singkat": "4 dari 11 kecamatan berisiko tinggi",
+      "peran": "Penulis laporan tugas besar.",
+      "ringkas": "Menghitung tingkat risiko kebakaran hutan dan lahan di 11 kecamatan Kabupaten Muaro Jambi dengan metode Perka BNPB Nomor 2 Tahun 2012, lalu menyusun strategi mitigasi dan rekomendasi teknis.",
+      "masalah": "Kebakaran hutan dan lahan di Muaro Jambi berulang dan berpusat di lahan gambut bagian timur: luas terbakar 45.037 ha pada 2015 dan 20.891 ha pada 2019, dan kejadian 2026 kembali meningkat.",
+      "langkah": [
+        "Indeks bahaya dari lahan, curah hujan, dan jenis tanah; indeks kerentanan (dua versi) dan indeks kapasitas kabupaten.",
+        "Indeks risiko per kecamatan dan tingkat risiko dari matriks Perka BNPB, lalu dipetakan.",
+        "Analisis dampak terhadap infrastruktur dan lingkungan.",
+        "Mitigasi struktural (sekat kanal, sumur bor, embung, alat ukur muka air tanah, sekat bakar) dan nonstruktural, serta rencana penanggulangan pra, saat, dan pascabencana."
+      ],
+      "angka": [
+        {
+          "label": "Indeks bahaya 11 kecamatan",
+          "nilai": "0,480–0,566 (sedang)"
+        },
+        {
+          "label": "Indeks risiko (versi B)",
+          "nilai": "0,459–0,572"
+        },
+        {
+          "label": "Kecamatan berisiko tinggi",
+          "nilai": "4 dari 11"
+        }
+      ],
+      "catatan": "Seluruh data adalah data sekunder (BPS, BMKG, publikasi); keterbatasannya dijelaskan di laporan. Batas wilayah dari GADM 4.1.",
+      "perangkat_lunak": [
+        "Microsoft Excel"
+      ],
+      "media": [
+        {
+          "berkas": "peta-tingkat-risiko.webp",
+          "keterangan": "Peta tingkat risiko karhutla per kecamatan. Batas desa GADM 4.1, dikelompokkan ulang ke 11 kecamatan."
+        },
+        {
+          "berkas": "peta-indeks-risiko.webp",
+          "keterangan": "Peta indeks risiko karhutla per kecamatan."
+        },
+        {
+          "berkas": "diagram-alur-metode.webp",
+          "keterangan": "Diagram alur metode kajian."
+        }
+      ]
     }
   ]
 }
