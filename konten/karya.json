@@ -80,8 +80,8 @@
         "label": "alat praktikum dan kalkulator geoteknik di GeoSR"
       },
       {
-        "nilai": "7",
-        "label": "alat berat dianalisis produktivitasnya saat kerja praktik"
+        "nilai": "18",
+        "label": "karya: lomba, pemodelan, perhitungan, gambar kerja, dan lapangan"
       }
     ],
     "linimasa": [
@@ -132,6 +132,24 @@
         "judul": "Asisten Dosen Menggambar Struktur Bangunan",
         "ket": "Asistensi dan penilaian tugas gambar.",
         "karya": "asisten-dosen"
+      },
+      {
+        "waktu": "Semester genap 2025/2026",
+        "judul": "Gambar kerja gedung 4 lantai, RAB rumah 2 lantai, fondasi tiang bor",
+        "ket": "Menggambar Struktur Bangunan 2, Perencanaan Biaya dan Penjadwalan, Teknik Pondasi II, Dinamika Struktur, Drainase.",
+        "karya": "msb2-gedung-4-lantai"
+      },
+      {
+        "waktu": "2025",
+        "judul": "Struktur baja, beton, dan geometrik jalan",
+        "ket": "Kuda-kuda baja LRFD, pelat dan balok beton bertulang, alinyemen jalan arteri.",
+        "karya": "kuda-kuda-baja"
+      },
+      {
+        "waktu": "2024",
+        "judul": "Praktikum Mekanika Tanah",
+        "ket": "15 pengujian lapangan dan laboratorium; awal minat saya di geoteknik.",
+        "karya": "praktikum-mektan"
       }
     ]
   },
@@ -2114,6 +2132,1227 @@
         }
       ],
       "sampul": "peta-tingkat-risiko.webp"
+    },
+    {
+      "id": "msb2-gedung-4-lantai",
+      "status": "publik",
+      "unggulan": true,
+      "sampul": "potongan-portal.webp",
+      "judul": "Gambar kerja struktur gedung 4 lantai (62 lembar)",
+      "acara": "Tugas besar Menggambar Struktur Bangunan 2, Universitas Jambi",
+      "tahun": 2026,
+      "jenis": [
+        "Gambar/DED"
+      ],
+      "hasil_singkat": "62 lembar A3: arsitektur, struktur atas, fondasi, detail",
+      "peran": "Penggambar (tugas individu).",
+      "ringkas": "Satu set gambar kerja gedung empat lantai: denah dan tampak, denah kolom, balok, pelat, tie beam, fondasi tiang dan pile cap, tangga, lift, potongan portal, sampai detail penulangan dan kuda-kuda baja.",
+      "perangkat_lunak": [
+        "Autodesk Revit",
+        "AutoCAD"
+      ],
+      "bagian": [
+        {
+          "judul": "Isi set gambar",
+          "tabel": [
+            {
+              "kolom": [
+                "Kelompok gambar",
+                "Lembar",
+                "Isi"
+              ],
+              "baris": [
+                [
+                  "Arsitektur",
+                  "11",
+                  "Denah kusen tiap lantai, tampak depan, kanan, kiri, belakang, denah atap dan rooftop"
+                ],
+                [
+                  "Struktur atas",
+                  "17",
+                  "Denah kolom, balok, pelat lantai, dan tie beam tiap lantai, termasuk denah parsial"
+                ],
+                [
+                  "Fondasi",
+                  "6",
+                  "Denah fondasi, fondasi parsial, dan pile cap"
+                ],
+                [
+                  "Potongan",
+                  "4",
+                  "Potongan A, potongan B, potongan portal A-A dan B-B (elevasi −1,20 sampai +16,00 m)"
+                ],
+                [
+                  "Detail",
+                  "20",
+                  "Kolom, balok, pelat, pile cap, tie beam, tangga, lift, kuda-kuda baja, dan kusen"
+                ]
+              ]
+            }
+          ],
+          "gambar": [
+            {
+              "berkas": "tampak-depan.webp",
+              "keterangan": "Tampak depan"
+            },
+            {
+              "berkas": "denah-kolom.webp",
+              "keterangan": "Denah kolom"
+            },
+            {
+              "berkas": "denah-balok.webp",
+              "keterangan": "Denah balok"
+            },
+            {
+              "berkas": "denah-pelat.webp",
+              "keterangan": "Denah pelat lantai"
+            },
+            {
+              "berkas": "denah-pondasi.webp",
+              "keterangan": "Denah fondasi"
+            },
+            {
+              "berkas": "denah-pile-cap.webp",
+              "keterangan": "Denah pile cap"
+            },
+            {
+              "berkas": "tangga.webp",
+              "keterangan": "Denah dan potongan tangga"
+            },
+            {
+              "berkas": "potongan-portal.webp",
+              "keterangan": "Potongan portal"
+            },
+            {
+              "berkas": "detail-kolom.webp",
+              "keterangan": "Detail penulangan kolom"
+            },
+            {
+              "berkas": "detail-balok.webp",
+              "keterangan": "Detail penulangan balok"
+            },
+            {
+              "berkas": "detail-pile-cap.webp",
+              "keterangan": "Detail pile cap"
+            },
+            {
+              "berkas": "detail-kuda-kuda-baja.webp",
+              "keterangan": "Detail kuda-kuda baja"
+            }
+          ]
+        }
+      ],
+      "unduhan": [
+        {
+          "berkas": "msb2-gambar-pilihan.pdf",
+          "label": "12 lembar pilihan (PDF vektor, 9 MB)"
+        }
+      ],
+      "catatan": "Kop gambar di pratinjau dipotong dan NIM serta nama dosen dan asisten dihapus dari PDF (redaksi teks)."
+    },
+    {
+      "id": "rab-rumah-2-lantai",
+      "status": "publik",
+      "unggulan": true,
+      "sampul": "tampak-depan.webp",
+      "judul": "RAB dan jadwal rumah tinggal 2 lantai",
+      "acara": "Tugas besar Perencanaan, Biaya dan Penjadwalan Proyek, Universitas Jambi",
+      "tahun": 2026,
+      "jenis": [
+        "Perhitungan",
+        "Gambar/DED"
+      ],
+      "hasil_singkat": "Rp2.139.807.000, 24 minggu",
+      "peran": "Penyusun (tugas individu): gambar DED, volume, RAB, dan jadwal.",
+      "ringkas": "Rencana anggaran biaya dan kurva S rumah tinggal dua lantai 400 m², dari gambar DED sampai volume, analisis harga satuan AHSP 2026, BOQ, WBS, dan jadwal.",
+      "perangkat_lunak": [
+        "Microsoft Excel",
+        "Autodesk Revit",
+        "AutoCAD"
+      ],
+      "bagian": [
+        {
+          "judul": "Dari gambar ke anggaran",
+          "teks": [
+            "Item pekerjaan diturunkan dari gambar DED, volumenya dihitung dengan lembar backup data, lalu dikalikan harga satuan dari AHSP 2026 (SE DJBK Nomor 47 Tahun 2026). Total sudah termasuk contingency 5 % dan PPN 11 %."
+          ],
+          "tabel": [
+            {
+              "judul": "Lembar di buku kerja Excel",
+              "kolom": [
+                "Lembar",
+                "Isi"
+              ],
+              "baris": [
+                [
+                  "I–VIII",
+                  "RAB per pekerjaan: persiapan, tanah dan urugan, struktur dan pembesian, lantai, rangka dan plafon, kusen, atap, dinding"
+                ],
+                [
+                  "AHSP 2026, AHSP INDEX",
+                  "Analisis harga satuan dan indeks bahan, upah, alat"
+                ],
+                [
+                  "WBS",
+                  "Struktur rincian kerja"
+                ],
+                [
+                  "BACKUP DATA, REKAPITULASI VOLUME",
+                  "Hitungan volume tiap item dari gambar"
+                ],
+                [
+                  "BOQ",
+                  "Daftar kuantitas"
+                ],
+                [
+                  "KURVA S",
+                  "Bar chart dan kurva S 24 minggu"
+                ]
+              ]
+            }
+          ],
+          "gambar": [
+            {
+              "berkas": "denah-lantai-1.webp",
+              "keterangan": "Denah lantai 1"
+            },
+            {
+              "berkas": "denah-lantai-2.webp",
+              "keterangan": "Denah lantai 2"
+            },
+            {
+              "berkas": "denah-sloof.webp",
+              "keterangan": "Denah sloof"
+            },
+            {
+              "berkas": "denah-kolom.webp",
+              "keterangan": "Denah kolom"
+            },
+            {
+              "berkas": "tampak-depan.webp",
+              "keterangan": "Tampak depan"
+            },
+            {
+              "berkas": "tampak-belakang.webp",
+              "keterangan": "Tampak belakang"
+            }
+          ]
+        },
+        {
+          "judul": "Jadwal dan kurva S",
+          "teks": [
+            "Bobot tiap item disebar ke minggu pelaksanaannya; kumulatifnya membentuk kurva S yang mencapai 100 % di minggu ke-24."
+          ],
+          "grafik": [
+            {
+              "tipe": "garis",
+              "judul": "Kurva S rencana (bobot kumulatif)",
+              "x": "Minggu ke-",
+              "y": "Bobot kumulatif (%)",
+              "seri": [
+                {
+                  "nama": "Rencana",
+                  "titik": [
+                    [
+                      1,
+                      0.34
+                    ],
+                    [
+                      2,
+                      1.72
+                    ],
+                    [
+                      3,
+                      2.75
+                    ],
+                    [
+                      4,
+                      3.78
+                    ],
+                    [
+                      5,
+                      7.15
+                    ],
+                    [
+                      6,
+                      12.73
+                    ],
+                    [
+                      7,
+                      15.97
+                    ],
+                    [
+                      8,
+                      22.14
+                    ],
+                    [
+                      9,
+                      25.08
+                    ],
+                    [
+                      10,
+                      30.98
+                    ],
+                    [
+                      11,
+                      37.35
+                    ],
+                    [
+                      12,
+                      44.63
+                    ],
+                    [
+                      13,
+                      48.97
+                    ],
+                    [
+                      14,
+                      53.31
+                    ],
+                    [
+                      15,
+                      58.19
+                    ],
+                    [
+                      16,
+                      63.07
+                    ],
+                    [
+                      17,
+                      69.94
+                    ],
+                    [
+                      18,
+                      76.82
+                    ],
+                    [
+                      19,
+                      81.65
+                    ],
+                    [
+                      20,
+                      86.48
+                    ],
+                    [
+                      21,
+                      89.86
+                    ],
+                    [
+                      22,
+                      93.24
+                    ],
+                    [
+                      23,
+                      96.62
+                    ],
+                    [
+                      24,
+                      100.0
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "tipe": "batang",
+              "judul": "Bobot biaya per kelompok pekerjaan",
+              "x": "Bobot (%)",
+              "satuan": "%",
+              "label": [
+                "Persiapan",
+                "Tanah dan Pondasi",
+                "Struktur dan Pembesian",
+                "Lantai",
+                "Rangka dan Plafond",
+                "Kusen, Pintu, dan Jendela",
+                "Atap",
+                "Dinding dan Finishing"
+              ],
+              "seri": [
+                {
+                  "nama": "Bobot",
+                  "nilai": [
+                    0.69,
+                    4.12,
+                    46.71,
+                    8.16,
+                    3.7,
+                    8.73,
+                    0.86,
+                    27.03
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "angka": [
+        {
+          "label": "Total RAB (termasuk contingency 5 % dan PPN 11 %)",
+          "nilai": "Rp2.139.807.000"
+        },
+        {
+          "label": "Luas bangunan",
+          "nilai": "10 × 20 m × 2 lantai = 400 m²"
+        },
+        {
+          "label": "Durasi",
+          "nilai": "24 minggu"
+        }
+      ],
+      "catatan": "Kop gambar DED dipotong dari pratinjau."
+    },
+    {
+      "id": "respons-spektrum-gempa",
+      "status": "publik",
+      "judul": "Respons spektrum desain gempa (SNI 1726:2019)",
+      "acara": "Tugas Dinamika Struktur, Universitas Jambi",
+      "tahun": 2026,
+      "jenis": [
+        "Perhitungan"
+      ],
+      "hasil_singkat": "SDS 0,384 g; SD1 0,475 g; kelas situs SD",
+      "peran": "Penyusun (tugas individu).",
+      "ringkas": "Menyusun spektrum respons percepatan desain untuk lokasi di perbatasan Riau–Jambi dari parameter gempa, kelas situs, dan koefisien situs, lalu menggambarkan kurvanya di Excel.",
+      "perangkat_lunak": [
+        "Microsoft Excel"
+      ],
+      "bagian": [
+        {
+          "judul": "Parameter dan kurva",
+          "teks": [
+            "Situs tanah sedang (kelas SD), bangunan kategori risiko II (Ie = 1,0). Spektrum dibagi tiga zona: naik linear sampai T0, datar Sa = SDS sampai Ts, lalu turun Sa = SD1/T."
+          ],
+          "grafik": [
+            {
+              "tipe": "garis",
+              "judul": "Spektrum respons percepatan desain",
+              "x": "Periode T (detik)",
+              "y": "Sa (g)",
+              "seri": [
+                {
+                  "nama": "Sa",
+                  "titik": [
+                    [
+                      0,
+                      0.1537
+                    ],
+                    [
+                      0.1,
+                      0.2471
+                    ],
+                    [
+                      0.2,
+                      0.3404
+                    ],
+                    [
+                      0.3,
+                      0.3843
+                    ],
+                    [
+                      0.4,
+                      0.3843
+                    ],
+                    [
+                      0.5,
+                      0.3843
+                    ],
+                    [
+                      0.6,
+                      0.3843
+                    ],
+                    [
+                      0.7,
+                      0.3843
+                    ],
+                    [
+                      0.8,
+                      0.3843
+                    ],
+                    [
+                      0.9,
+                      0.3843
+                    ],
+                    [
+                      1.0,
+                      0.3843
+                    ],
+                    [
+                      1.1,
+                      0.3843
+                    ],
+                    [
+                      1.2,
+                      0.3843
+                    ],
+                    [
+                      1.3,
+                      0.3652
+                    ],
+                    [
+                      1.4,
+                      0.3391
+                    ],
+                    [
+                      1.5,
+                      0.3165
+                    ],
+                    [
+                      1.6,
+                      0.2967
+                    ],
+                    [
+                      1.7,
+                      0.2792
+                    ],
+                    [
+                      1.8,
+                      0.2637
+                    ],
+                    [
+                      1.9,
+                      0.2499
+                    ],
+                    [
+                      2.0,
+                      0.2374
+                    ],
+                    [
+                      2.1,
+                      0.2261
+                    ],
+                    [
+                      2.2,
+                      0.2158
+                    ],
+                    [
+                      2.3,
+                      0.2064
+                    ],
+                    [
+                      2.4,
+                      0.1978
+                    ],
+                    [
+                      2.5,
+                      0.1899
+                    ],
+                    [
+                      2.6,
+                      0.1826
+                    ],
+                    [
+                      2.7,
+                      0.1758
+                    ],
+                    [
+                      2.8,
+                      0.1695
+                    ],
+                    [
+                      2.9,
+                      0.1637
+                    ],
+                    [
+                      3.0,
+                      0.1582
+                    ],
+                    [
+                      3.1,
+                      0.1531
+                    ],
+                    [
+                      3.2,
+                      0.1483
+                    ],
+                    [
+                      3.3,
+                      0.1439
+                    ],
+                    [
+                      3.4,
+                      0.1396
+                    ],
+                    [
+                      3.5,
+                      0.1356
+                    ],
+                    [
+                      3.6,
+                      0.1319
+                    ],
+                    [
+                      3.7,
+                      0.1283
+                    ],
+                    [
+                      3.8,
+                      0.1249
+                    ],
+                    [
+                      3.9,
+                      0.1217
+                    ],
+                    [
+                      4.0,
+                      0.1187
+                    ],
+                    [
+                      4.1,
+                      0.1158
+                    ],
+                    [
+                      4.2,
+                      0.113
+                    ],
+                    [
+                      4.3,
+                      0.1104
+                    ],
+                    [
+                      4.4,
+                      0.1079
+                    ],
+                    [
+                      4.5,
+                      0.1055
+                    ],
+                    [
+                      4.6,
+                      0.1032
+                    ],
+                    [
+                      4.7,
+                      0.101
+                    ],
+                    [
+                      4.8,
+                      0.0989
+                    ],
+                    [
+                      4.9,
+                      0.0969
+                    ],
+                    [
+                      5.0,
+                      0.0949
+                    ],
+                    [
+                      5.1,
+                      0.0931
+                    ],
+                    [
+                      5.2,
+                      0.0913
+                    ],
+                    [
+                      5.3,
+                      0.0896
+                    ],
+                    [
+                      5.4,
+                      0.0879
+                    ],
+                    [
+                      5.5,
+                      0.0863
+                    ],
+                    [
+                      5.6,
+                      0.0848
+                    ],
+                    [
+                      5.7,
+                      0.0833
+                    ],
+                    [
+                      5.8,
+                      0.0818
+                    ],
+                    [
+                      5.9,
+                      0.0805
+                    ],
+                    [
+                      6.0,
+                      0.0791
+                    ]
+                  ],
+                  "titik_tampak": false
+                }
+              ]
+            }
+          ],
+          "tabel": [
+            {
+              "kolom": [
+                "Parameter",
+                "Notasi",
+                "Nilai"
+              ],
+              "baris": [
+                [
+                  "Percepatan batuan dasar periode pendek",
+                  "Ss",
+                  "0,3603 g"
+                ],
+                [
+                  "Percepatan batuan dasar periode 1 detik",
+                  "S1",
+                  "0,2967 g"
+                ],
+                [
+                  "Koefisien situs",
+                  "Fa / Fv",
+                  "1,6 / 2,4"
+                ],
+                [
+                  "Spektrum MCER",
+                  "SMS / SM1",
+                  "0,5765 / 0,7121 g"
+                ],
+                [
+                  "Spektrum desain",
+                  "SDS / SD1",
+                  "0,3843 / 0,4747 g"
+                ],
+                [
+                  "Periode karakteristik",
+                  "T0 / Ts",
+                  "0,247 / 1,235 detik"
+                ],
+                [
+                  "Periode panjang",
+                  "TL",
+                  "20 detik"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "judul": "Lanjutan di tugas besar kelompok",
+          "teks": [
+            "Di mata kuliah yang sama, tugas besar kelompok memodelkan gedung asrama mahasiswa di ETABS untuk analisis dinamik dan gaya geser dasar gempa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bore-pile-nspt",
+      "status": "publik",
+      "judul": "Fondasi kelompok tiang bor dari data N-SPT",
+      "acara": "Tugas besar Teknik Pondasi II, Universitas Jambi",
+      "tahun": 2026,
+      "jenis": [
+        "Perhitungan"
+      ],
+      "hasil_singkat": "4 tiang D46 cm, L 16 m; FS 1,036 terhadap 400 ton",
+      "peran": "Anggota kelompok (5 orang).",
+      "ringkas": "Menghitung daya dukung tiang bor tunggal dari profil N-SPT (tahanan ujung dan selimut), kontrol bahan, jumlah tiang, efisiensi kelompok Converse–Labarre, dan kapasitas kelompok terhadap beban pilar 400 ton.",
+      "perangkat_lunak": [
+        "Microsoft Excel"
+      ],
+      "bagian": [
+        {
+          "judul": "Profil tanah dan hasil",
+          "teks": [
+            "N-SPT naik tajam di 10–24 m (sampai 61), turun ke 10 di 26 m, lalu naik lagi. Ujung tiang di 16 m (N = 49). Efisiensi kelompok 0,795 mengurangi kapasitas empat tiang sekitar 20,5 %, sehingga kapasitas kelompok hanya 3,6 % di atas beban."
+          ],
+          "grafik": [
+            {
+              "tipe": "garis",
+              "judul": "Profil N-SPT terhadap kedalaman",
+              "x": "Kedalaman (m)",
+              "y": "N-SPT (pukulan)",
+              "seri": [
+                {
+                  "nama": "N-SPT",
+                  "titik": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      2,
+                      5
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      6,
+                      12
+                    ],
+                    [
+                      8,
+                      20
+                    ],
+                    [
+                      10,
+                      44
+                    ],
+                    [
+                      12,
+                      50
+                    ],
+                    [
+                      14,
+                      49
+                    ],
+                    [
+                      16,
+                      49
+                    ],
+                    [
+                      18,
+                      51
+                    ],
+                    [
+                      20,
+                      52
+                    ],
+                    [
+                      22,
+                      57
+                    ],
+                    [
+                      24,
+                      61
+                    ],
+                    [
+                      26,
+                      10
+                    ],
+                    [
+                      28,
+                      17
+                    ],
+                    [
+                      30,
+                      16
+                    ],
+                    [
+                      32,
+                      17
+                    ],
+                    [
+                      34,
+                      18
+                    ],
+                    [
+                      36,
+                      17
+                    ],
+                    [
+                      38,
+                      18
+                    ],
+                    [
+                      40,
+                      19
+                    ],
+                    [
+                      42,
+                      20
+                    ],
+                    [
+                      44,
+                      36
+                    ],
+                    [
+                      46,
+                      34
+                    ],
+                    [
+                      48,
+                      36
+                    ],
+                    [
+                      50,
+                      42
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "tipe": "batang",
+              "judul": "Kapasitas tiang tunggal (ton)",
+              "x": "Ton",
+              "satuan": "ton",
+              "sorot": [
+                "Q netto"
+              ],
+              "label": [
+                "Tahanan ujung Qp",
+                "Tahanan selimut Qs",
+                "Ultimit Qu",
+                "Izin Qall (FS 3)",
+                "Q netto",
+                "Kapasitas bahan"
+              ],
+              "seri": [
+                {
+                  "nama": "Ton",
+                  "nilai": [
+                    307.76,
+                    166.9,
+                    453.69,
+                    151.23,
+                    130.27,
+                    211.6
+                  ]
+                }
+              ]
+            }
+          ],
+          "tabel": [
+            {
+              "kolom": [
+                "Langkah",
+                "Hasil"
+              ],
+              "baris": [
+                [
+                  "Kebutuhan tiang teoretis",
+                  "400 ÷ 130,270 = 3,071 → 4 tiang (2 × 2)"
+                ],
+                [
+                  "Jarak antartiang",
+                  "3D = 138 cm"
+                ],
+                [
+                  "Efisiensi Converse–Labarre",
+                  "θ = 18,435°, Eg = 0,795"
+                ],
+                [
+                  "Kapasitas kelompok",
+                  "0,795 × 4 × 130,270 = 414,346 ton"
+                ],
+                [
+                  "Kontrol",
+                  "414,346 > 400 ton: aman, FS aktual 1,036"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drainase-perumahan",
+      "status": "publik",
+      "judul": "Perencanaan ulang drainase perumahan dengan sumur resapan",
+      "acara": "Tugas besar Drainase Perkotaan, Universitas Jambi",
+      "tahun": 2026,
+      "jenis": [
+        "Perhitungan"
+      ],
+      "hasil_singkat": "Sumur resapan mengurangi limpasan 64,2 %",
+      "peran": "Anggota kelompok (3 orang).",
+      "ringkas": "Menganalisis penyebab genangan di sebuah perumahan di Kota Jambi, merancang ulang saluran trapesium, dan memadukannya dengan sumur resapan (konsep zero delta Q).",
+      "perangkat_lunak": [
+        "Microsoft Excel"
+      ],
+      "bagian": [
+        {
+          "judul": "Hidrologi, hidrolika, dan sumur resapan",
+          "teks": [
+            "Intensitas hujan dihitung dengan Mononobe dari R24 = 83,6 mm/hari (data BMKG) dan tc = 15 menit, I = 73,0 mm/jam. Debit rasional kawasan 0,446 ha dengan C komposit 0,735 adalah 0,067 m³/detik. Kapasitas saluran lama 0,478 m³/detik jauh di atas debit, jadi genangan disebabkan penyumbatan hilir (backwater), bukan kurangnya kapasitas."
+          ],
+          "grafik": [
+            {
+              "tipe": "batang",
+              "judul": "Debit rencana dibanding kapasitas saluran (m³/detik)",
+              "x": "Debit (m³/detik)",
+              "sorot": [
+                "Saluran trapesium rencana"
+              ],
+              "label": [
+                "Debit rencana kawasan",
+                "Dikurangi sumur resapan",
+                "Saluran trapesium rencana",
+                "Saluran eksisting 60 × 80 cm"
+              ],
+              "seri": [
+                {
+                  "nama": "Q",
+                  "nilai": [
+                    0.067,
+                    0.043,
+                    0.143,
+                    0.478
+                  ]
+                }
+              ]
+            }
+          ],
+          "tabel": [
+            {
+              "kolom": [
+                "Komponen",
+                "Hasil"
+              ],
+              "baris": [
+                [
+                  "Saluran trapesium",
+                  "b = 0,30 m, h = 0,30 m, kemiringan sisi 1 : 1, jagaan 0,075 m"
+                ],
+                [
+                  "Kapasitas dan faktor aman",
+                  "0,143 m³/detik, 2,13 × debit rencana"
+                ],
+                [
+                  "Kecepatan dan Froude",
+                  "V = 0,796 m/detik, Fr = 0,568 (subkritis)"
+                ],
+                [
+                  "Sumur resapan (Sunjoto, 1992)",
+                  "Ø 1,0 m, kedalaman 1,30 m, K = 1,5 × 10⁻⁴ m/detik"
+                ],
+                [
+                  "Pengurangan limpasan atap",
+                  "0,043 m³/detik (64,2 % debit kawasan)"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kuda-kuda-baja",
+      "status": "publik",
+      "sampul": "rencana-kuda-kuda.webp",
+      "judul": "Perencanaan kuda-kuda baja profil siku (LRFD)",
+      "acara": "Project based learning Struktur Baja I, Universitas Jambi",
+      "tahun": 2025,
+      "jenis": [
+        "Perhitungan",
+        "Gambar/DED"
+      ],
+      "hasil_singkat": "Desain batang, sambungan baut, dan gambar detail buhul",
+      "peran": "Perencana dan penggambar (tugas individu).",
+      "ringkas": "Merencanakan rangka atap baja profil siku dengan metode LRFD (SNI 1729:2020): pembebanan termasuk angin, gaya batang, kapasitas tarik dan tekan, sambungan baut, sampai gambar detail tiap buhul.",
+      "perangkat_lunak": [
+        "AutoCAD",
+        "Microsoft Excel"
+      ],
+      "bagian": [
+        {
+          "judul": "Data perencanaan dan gambar",
+          "tabel": [
+            {
+              "kolom": [
+                "Data",
+                "Nilai"
+              ],
+              "baris": [
+                [
+                  "Jarak antarkuda-kuda",
+                  "6 m"
+                ],
+                [
+                  "Penutup atap",
+                  "Aluminium"
+                ],
+                [
+                  "Kemiringan atap",
+                  "23°"
+                ],
+                [
+                  "Mutu baja",
+                  "BJ 37"
+                ],
+                [
+                  "Beban angin",
+                  "Konstruksi 5 km dari pantai"
+                ],
+                [
+                  "Alat sambung",
+                  "Baut A325 D12,7 mm, pelat buhul 8 mm"
+                ],
+                [
+                  "Gording dan trekstang",
+                  "C 120.50.20.4,0; trekstang Ø10"
+                ]
+              ]
+            }
+          ],
+          "gambar": [
+            {
+              "berkas": "rencana-kuda-kuda.webp",
+              "keterangan": "Rencana kuda-kuda dan penomoran batang"
+            },
+            {
+              "berkas": "buhul-e-f.webp",
+              "keterangan": "Detail buhul E dan F"
+            },
+            {
+              "berkas": "buhul-a-b.webp",
+              "keterangan": "Detail buhul A dan B (tumpuan)"
+            },
+            {
+              "berkas": "buhul-g-h.webp",
+              "keterangan": "Detail buhul G dan H"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "struktur-beton",
+      "status": "publik",
+      "sampul": "gambar-47.webp",
+      "judul": "Perencanaan pelat dan balok beton bertulang",
+      "acara": "Project based learning Struktur Beton I, Universitas Jambi",
+      "tahun": 2025,
+      "jenis": [
+        "Perhitungan",
+        "Gambar/DED"
+      ],
+      "hasil_singkat": "Hitungan penulangan dan 6 lembar gambar pendetailan",
+      "peran": "Perencana dan penggambar (tugas individu).",
+      "ringkas": "Merencanakan penulangan pelat dan balok beton bertulang, termasuk tulangan lentur, susut, dan integritas, lalu menuangkannya dalam gambar pendetailan.",
+      "perangkat_lunak": [
+        "AutoCAD",
+        "Microsoft Excel"
+      ],
+      "bagian": [
+        {
+          "judul": "Gambar pendetailan",
+          "teks": [
+            "Contoh: pelat tebal 170 mm dengan tulangan lentur D12 @ 300 mm dan tulangan susut; tulangan integritas balok dua D16 menerus melewati kolom."
+          ],
+          "gambar": [
+            {
+              "berkas": "gambar-47.webp",
+              "keterangan": "Lembar gambar 1"
+            },
+            {
+              "berkas": "gambar-48.webp",
+              "keterangan": "Lembar gambar 2"
+            },
+            {
+              "berkas": "gambar-49.webp",
+              "keterangan": "Lembar gambar 3"
+            },
+            {
+              "berkas": "gambar-50.webp",
+              "keterangan": "Lembar gambar 4"
+            },
+            {
+              "berkas": "gambar-51.webp",
+              "keterangan": "Lembar gambar 5"
+            },
+            {
+              "berkas": "gambar-52.webp",
+              "keterangan": "Lembar gambar 6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geometrik-jalan",
+      "status": "publik",
+      "sampul": "trase-kontur.webp",
+      "judul": "Perancangan geometrik jalan arteri",
+      "acara": "Tugas besar Perancangan Geometrik Jalan, Universitas Jambi",
+      "tahun": 2025,
+      "jenis": [
+        "Perhitungan",
+        "Gambar/DED"
+      ],
+      "hasil_singkat": "Trase di peta kontur, tikungan S-C-S, VR 80 km/jam",
+      "peran": "Perancang (tugas individu).",
+      "ringkas": "Menarik trase jalan arteri di atas peta kontur, lalu merancang alinyemen horizontal dan vertikal: jarak pandang, jari-jari minimum, lengkung peralihan, superelevasi, dan jenis tikungan.",
+      "perangkat_lunak": [
+        "AutoCAD",
+        "Global Mapper",
+        "Microsoft Excel"
+      ],
+      "bagian": [
+        {
+          "judul": "Trase dan alinyemen",
+          "teks": [
+            "Titik awal di elevasi 42,001 m dan titik akhir 42,829 m. Kecepatan rencana 80 km/jam, superelevasi maksimum 8 %, panjang bagian lurus maksimum 3.000 m (medan datar). Tikungan 1 (Rc 300 m) dan tikungan 2 (Rc 358 m, Δ 59,141°, Ls 67 m, e 7,9 %) memenuhi syarat Spiral–Circle–Spiral."
+          ],
+          "gambar": [
+            {
+              "berkas": "trase-kontur.webp",
+              "keterangan": "Trase jalan di atas peta kontur."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dokumen-k3-erp",
+      "status": "publik",
+      "judul": "Dokumen K3 dan emergency response plan proyek PLTA",
+      "acara": "Tugas Keselamatan dan Kesehatan Kerja Konstruksi, Universitas Jambi",
+      "tahun": 2026,
+      "jenis": [
+        "Kajian dan tugas kuliah"
+      ],
+      "hasil_singkat": "Limbah B3, ERP, SOP tumpahan dan kebakaran",
+      "peran": "Penyusun (tugas individu).",
+      "ringkas": "Menyusun dokumen K3 dan rencana tanggap darurat untuk studi kasus proyek pembangkit listrik tenaga air: identifikasi limbah B3, tempat penyimpanan, simbol dan label, ERP, SOP, serta checklist inspeksi.",
+      "perangkat_lunak": [
+        "Microsoft Word",
+        "AutoCAD"
+      ],
+      "bagian": [
+        {
+          "judul": "Isi dokumen",
+          "poin": [
+            "Identifikasi sumber dan inventaris limbah B3 serta risiko K3 dan lingkungannya.",
+            "Denah dan spesifikasi tempat penyimpanan sementara limbah B3, simbol, dan label kemasan.",
+            "Emergency response plan: skenario darurat, jalur evakuasi, titik kumpul, struktur tim tanggap darurat, dan peralatan.",
+            "SOP penanganan tumpahan limbah B3 serta SOP kebakaran dan evakuasi.",
+            "Checklist inspeksi kesiapsiagaan harian dan mingguan beserta evaluasi ketidaksesuaian.",
+            "Di mata kuliah yang sama, tugas kelompok menggambar peta evakuasi gedung kampus di AutoCAD."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "praktikum-mektan",
+      "status": "publik",
+      "judul": "Praktikum Mekanika Tanah: 15 pengujian lapangan dan laboratorium",
+      "acara": "Praktikum Mekanika Tanah, Universitas Jambi",
+      "tahun": 2024,
+      "jenis": [
+        "Praktikum dan asisten lab"
+      ],
+      "hasil_singkat": "Laporan lengkap ±190 halaman",
+      "peran": "Praktikan, anggota kelompok 3.",
+      "ringkas": "Laporan praktikum yang menjadi dasar saya kemudian menjadi asisten laboratorium dan membuat alat praktikum GeoSR.",
+      "perangkat_lunak": [
+        "Microsoft Excel",
+        "Microsoft Word"
+      ],
+      "bagian": [
+        {
+          "judul": "Pengujian yang dikerjakan",
+          "poin": [
+            "Lapangan: sondir, SPT dan pengeboran, vane shear, sand cone.",
+            "Sifat fisik dan klasifikasi: kadar air, berat jenis, batas Atterberg, analisa saringan dan hidrometer, klasifikasi tanah.",
+            "Kepadatan: pemadatan Proctor dan CBR laboratorium.",
+            "Kekuatan dan deformasi: tekan bebas, geser langsung, triaksial, konsolidasi, permeabilitas."
+          ]
+        }
+      ],
+      "tautan": [
+        {
+          "url": "https://geosr-lab.github.io/praktikum/",
+          "label": "Alat praktikum di GeoSR"
+        }
+      ]
     }
   ]
 }
