@@ -26,6 +26,27 @@
   saring.forEach(function (b) { b.addEventListener('click', function () { terapkan(b.dataset.saring); }); });
   if (saring.length) terapkan('');
 
+  // Perbesar gambar di halaman karya tanpa meninggalkan halaman; tanpa skrip, tautan tetap membuka gambar penuh.
+  var lihat = null;
+  document.querySelectorAll('figure > a > img').forEach(function (img) {
+    img.parentNode.addEventListener('click', function (ev) {
+      if (!window.HTMLDialogElement) return;
+      ev.preventDefault();
+      if (!lihat) {
+        lihat = document.createElement('dialog');
+        lihat.className = 'lihat';
+        lihat.innerHTML = '<button type="button" class="tombol">Tutup</button><img alt=""><p></p>';
+        lihat.querySelector('button').addEventListener('click', function () { lihat.close(); });
+        lihat.addEventListener('click', function (e) { if (e.target === lihat) lihat.close(); });
+        document.body.appendChild(lihat);
+      }
+      lihat.querySelector('img').src = img.src;
+      lihat.querySelector('img').alt = img.alt;
+      lihat.querySelector('p').textContent = img.alt;
+      lihat.showModal();
+    });
+  });
+
   var cetak = document.querySelector('[data-cetak]');
   if (cetak) cetak.addEventListener('click', function () { window.print(); });
 })();
