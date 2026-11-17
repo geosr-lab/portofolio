@@ -1,0 +1,372 @@
+{
+  "_catatan": "Sumber isi portofolio yang terbit. Ubah di sini lalu jalankan: python skrip/bangun.py. Karya privat (belum boleh terbit) TIDAK ditulis di sini, tetapi di ../02 Siap Terbit/privat/karya-privat.json (di luar repo); python skrip/bangun.py --privat menggabungkannya untuk pratinjau lokal. Untuk menerbitkan karya privat: pindahkan entrinya ke sini, ubah status menjadi publik, pindahkan berkasnya ke 02 Siap Terbit/publik/<id>/. Media/unduhan boleh punya \"privat\": true (hanya pratinjau lokal).",
+  "profil": {
+    "nama": "Defsa Yurinda",
+    "peran": "Mahasiswa S1 Teknik Sipil, Universitas Jambi",
+    "ringkas": "Saya mahasiswa Teknik Sipil Fakultas Sains dan Teknologi Universitas Jambi (semester 7 pada 2026) dengan minat utama geoteknik, terutama fondasi tiang dan pengujian tanah. Di halaman ini ada karya lomba, perhitungan, pemodelan numerik, gambar teknik, dan pengalaman lapangan serta laboratorium saya.",
+    "github": "defsayurinda",
+    "geosr": "https://geosr-lab.github.io/",
+    "pendidikan": [
+      {
+        "judul": "S1 Teknik Sipil",
+        "tempat": "Fakultas Sains dan Teknologi, Universitas Jambi",
+        "waktu": "semester 7 pada 2026"
+      }
+    ],
+    "prestasi": [
+      {
+        "judul": "Juara 2 Indonesian Geotechnical Challenge (IGC) 2026",
+        "tempat": "HATTI, Pertemuan Ilmiah Tahunan HATTI XXX, Jakarta",
+        "waktu": "November 2026",
+        "keterangan": "Tim HIMATESI UNJA; peringkat 1 dari 5 finalis di tahap pertama.",
+        "karya": "igc-2026"
+      }
+    ],
+    "pengalaman": [
+      {
+        "judul": "Asisten Laboratorium Praktikum Mekanika Tanah",
+        "tempat": "Laboratorium Teknik, Fakultas Sains dan Teknologi, Universitas Jambi",
+        "waktu": "Semester ganjil 2026/2027",
+        "keterangan": "Mendampingi dan mengawasi jalannya praktikum, lalu memeriksa laporan praktikum mahasiswa.",
+        "karya": "asisten-lab"
+      },
+      {
+        "judul": "Kerja Praktik, bagian Quality Control",
+        "tempat": "Proyek gedung pusat perbelanjaan, di pihak kontraktor pelaksana",
+        "waktu": "1 Juli – 1 September 2026",
+        "keterangan": "Membantu pengawasan dan inspeksi pekerjaan fondasi tiang bor, pile cap, ground water tank, serta pembesian balok dan pelat lantai.",
+        "karya": "kerja-praktik"
+      },
+      {
+        "judul": "Asisten Dosen Menggambar Struktur Bangunan",
+        "tempat": "Program Studi Teknik Sipil, Universitas Jambi",
+        "waktu": "2025",
+        "keterangan": "Membantu asistensi tugas gambar struktur bangunan, lalu memeriksa dan menilai tugas mahasiswa.",
+        "karya": "asisten-dosen"
+      }
+    ],
+    "perangkat_lunak": [
+      {
+        "tingkat": "Menengah",
+        "daftar": "Microsoft Word, Excel, PowerPoint, AutoCAD, Revit"
+      },
+      {
+        "tingkat": "Dasar",
+        "daftar": "ETABS, SAP2000, PLAXIS (2D dan 3D), AllPile"
+      },
+      {
+        "tingkat": "Sedang dipelajari",
+        "daftar": "Git, GitHub"
+      }
+    ]
+  },
+  "jenis": [
+    "Lomba",
+    "Perhitungan",
+    "Pemodelan",
+    "Gambar/DED",
+    "Kajian dan tugas kuliah",
+    "Praktikum dan asisten lab",
+    "Kerja praktik",
+    "Alat (GeoSR)"
+  ],
+  "karya": [
+    {
+      "id": "igc-2026",
+      "status": "publik",
+      "unggulan": true,
+      "judul": "Kelompok tiang HDPE penahan beban lateral",
+      "acara": "Indonesian Geotechnical Challenge (IGC) 2026, HATTI",
+      "tahun": 2026,
+      "jenis": [
+        "Lomba",
+        "Perhitungan",
+        "Pemodelan"
+      ],
+      "hasil_singkat": "Juara 2; peringkat 1 dari 5 finalis di tahap pertama",
+      "peran": "Anggota tim HIMATESI UNJA (3 orang).",
+      "ringkas": "Merancang kelompok tiang dari tiga batang HDPE pejal untuk menahan beban lateral sebesar mungkin di pasir kering, lalu menguji model fisiknya di babak final.",
+      "masalah": "Bahan yang diberikan panitia hanya tiga batang HDPE pejal Ø12 mm sepanjang 900 mm. Batang boleh dipotong menjadi tiang 150–300 mm, jarak antartiang 2D–4D, dan pilecap berukuran 180 × 132 mm. Tujuannya beban lateral puncak sebesar mungkin, diuji dengan kendali perpindahan di Pertemuan Ilmiah Tahunan HATTI XXX, Jakarta, 2–4 November 2026.",
+      "langkah": [
+        "Sembilan skenario konfigurasi (K01–K09: 9, 12, dan 15 tiang) dianalisis dengan metode p-y untuk kepala tiang jepit dan bebas.",
+        "Desain terpilih K01: 3 × 3 tiang, panjang 297 mm, jarak 48 mm, pilecap epoxy 20 mm. Sembilan tiang panjang lebih kuat daripada dua belas tiang yang lebih pendek.",
+        "Pemodelan elemen hingga PLAXIS 3D (model setengah) untuk membandingkan K01 dengan K06 (6 × 2, 12 tiang).",
+        "Analisis sensitivitas kapasitas terhadap sudut geser pasir φ 30,00°–38,15°.",
+        "Model fisik dibuat dan diuji panitia pada 4 November 2026."
+      ],
+      "angka": [
+        {
+          "label": "Prediksi kapasitas kepala bebas (dasar pilecap)",
+          "nilai": "193,21 N"
+        },
+        {
+          "label": "Bacaan load cell tertinggi saat uji",
+          "nilai": "45,38 kg (445,18 N)"
+        },
+        {
+          "label": "Hasil lomba",
+          "nilai": "Juara 2"
+        }
+      ],
+      "catatan": "Saat uji, gerak alat diturunkan panitia sebelum beban puncak tercapai, jadi 45,38 kg adalah bacaan tertinggi, bukan kapasitas puncak model. Laporan analisis, poster, dan Excel lomba tersedia atas permintaan; menurut TOR IGC 2026, hak cipta karya peserta menjadi milik panitia.",
+      "perangkat_lunak": [
+        "PLAXIS 3D",
+        "AllPile",
+        "Microsoft Excel",
+        "Python"
+      ],
+      "media": [
+        {
+          "berkas": "uji-model-k01.mp4",
+          "poster": "uji-model-k01.jpg",
+          "keterangan": "Uji beban lateral model K01, 4 November 2026 (dipotong dan tanpa suara). Angka merah adalah bacaan load cell (kg)."
+        },
+        {
+          "berkas": "kurva-plaxis-k01-k06.webp",
+          "keterangan": "Kurva beban–perpindahan kelompok tiang hasil PLAXIS 3D (run 20 Oktober 2026): K01 3 × 3 menahan beban lebih besar daripada K06 6 × 2 pada perpindahan yang sama."
+        },
+        {
+          "berkas": "poster-samar.webp",
+          "keterangan": "Poster babak final A0, sengaja dikaburkan: menurut TOR IGC 2026 hak cipta karya peserta milik panitia. Versi asli tersedia atas permintaan."
+        }
+      ],
+      "unduhan": [
+        {
+          "berkas": "laporan-analisis-igc-tahap-2-2026.pdf",
+          "label": "Laporan analisis (PDF, 27 hlm.)",
+          "privat": true
+        },
+        {
+          "berkas": "poster-igc-tahap-2-2026---a0.pdf",
+          "label": "Poster A0 (PDF)",
+          "privat": true
+        }
+      ]
+    },
+    {
+      "id": "lomba-lereng-2026",
+      "status": "publik",
+      "unggulan": true,
+      "judul": "Proposal desain perkuatan lereng (sedang dinilai)",
+      "acara": "Lomba desain geoteknik tingkat nasional, tahap penyisihan",
+      "tahun": 2026,
+      "jenis": [
+        "Lomba",
+        "Perhitungan",
+        "Pemodelan",
+        "Gambar/DED"
+      ],
+      "hasil_singkat": "Sedang dinilai panitia; isi dibuka setelah pengumuman",
+      "peran": "Anggota tim.",
+      "ringkas": "Proposal desain perkuatan lereng lengkap: analisis stabilitas lereng, desain perkuatan, RAB, jadwal, sistem pemantauan, dan gambar DED 12 lembar.",
+      "masalah": "",
+      "langkah": [
+        "Analisis stabilitas lereng asli dan lereng yang diperkuat dengan dua perangkat lunak, ditambah pembanding hitungan tangan di Python.",
+        "Desain perkuatan, drainase, dan sistem pemantauan.",
+        "Volume, RAB, metode konstruksi, dan jadwal di Excel yang dibangun dengan skrip.",
+        "Gambar DED 12 lembar A3."
+      ],
+      "angka": [],
+      "catatan": "Isi proposal sengaja disembunyikan dan gambar di atas dikaburkan: aturan lomba mendiskualifikasi karya yang sudah dipublikasikan sebelum penilaian. Halaman ini akan dilengkapi setelah lomba selesai.",
+      "perangkat_lunak": [
+        "LibreCAD",
+        "Microsoft Excel",
+        "Python"
+      ],
+      "media": [
+        {
+          "berkas": "ded-samar.webp",
+          "keterangan": "Salah satu lembar DED, dikaburkan sampai lomba selesai."
+        }
+      ]
+    },
+    {
+      "id": "geosr",
+      "status": "publik",
+      "unggulan": true,
+      "judul": "GeoSR: alat olah data praktikum dan kalkulator geoteknik",
+      "acara": "Proyek pribadi, terbuka di GitHub",
+      "tahun": 2026,
+      "jenis": [
+        "Alat (GeoSR)",
+        "Praktikum dan asisten lab",
+        "Perhitungan"
+      ],
+      "hasil_singkat": "18 alat praktikum, 6 kalkulator, bank soal",
+      "peran": "Pembuat.",
+      "ringkas": "Situs web supaya data praktikum Mekanika Tanah dan latihan hitungan geoteknik bisa diolah dengan langkah yang jelas dan sumber yang bisa dicek.",
+      "masalah": "Mengolah data praktikum Mekanika Tanah dan latihan hitungan geoteknik sering berhenti di angka akhir tanpa langkah dan sumber rumus yang jelas.",
+      "langkah": [
+        "Delapan belas alat pengolah data praktikum yang mengikuti form lab.",
+        "Enam kalkulator geoteknik dan bank soal latihan.",
+        "Setiap rumus menyebut sumbernya, dan hasil alat praktikum diuji otomatis terhadap angka di contoh laporan."
+      ],
+      "angka": [],
+      "catatan": "",
+      "perangkat_lunak": [
+        "HTML, CSS, JavaScript",
+        "Python",
+        "Git, GitHub"
+      ],
+      "tautan": [
+        {
+          "url": "https://geosr-lab.github.io/",
+          "label": "Buka GeoSR"
+        },
+        {
+          "url": "https://geosr-lab.github.io/praktikum/",
+          "label": "Alat praktikum"
+        }
+      ],
+      "media": [
+        {
+          "berkas": "tangkapan-beranda.webp",
+          "keterangan": "Beranda GeoSR, tema terang."
+        },
+        {
+          "berkas": "tangkapan-beranda-gelap.webp",
+          "keterangan": "Beranda GeoSR, tema gelap."
+        }
+      ]
+    },
+    {
+      "id": "asisten-lab",
+      "status": "publik",
+      "judul": "Asisten Laboratorium Praktikum Mekanika Tanah",
+      "acara": "Laboratorium Teknik, Fakultas Sains dan Teknologi, Universitas Jambi",
+      "tahun": 2026,
+      "jenis": [
+        "Praktikum dan asisten lab"
+      ],
+      "hasil_singkat": "Semester ganjil 2026/2027",
+      "peran": "Asisten laboratorium.",
+      "ringkas": "Mendampingi dan mengawasi jalannya praktikum, lalu memeriksa laporan praktikum mahasiswa.",
+      "masalah": "",
+      "langkah": [
+        "Mendampingi dan mengawasi jalannya praktikum Mekanika Tanah.",
+        "Memeriksa laporan praktikum mahasiswa.",
+        "Alat praktikum di GeoSR mengikuti form lab yang sama."
+      ],
+      "angka": [],
+      "catatan": "",
+      "perangkat_lunak": [],
+      "tautan": [
+        {
+          "url": "https://geosr-lab.github.io/praktikum/",
+          "label": "Alat praktikum di GeoSR"
+        }
+      ],
+      "media": [],
+      "unggulan": true
+    },
+    {
+      "id": "kerja-praktik",
+      "status": "publik",
+      "judul": "Kerja praktik: quality control fondasi tiang bor",
+      "acara": "Proyek gedung pusat perbelanjaan di Sumatra, di pihak kontraktor pelaksana",
+      "tahun": 2026,
+      "jenis": [
+        "Kerja praktik"
+      ],
+      "hasil_singkat": "1 Juli – 1 September 2026",
+      "peran": "Mahasiswa kerja praktik, bagian Quality Control.",
+      "ringkas": "Membantu pengawasan dan inspeksi pekerjaan fondasi tiang bor, pile cap, ground water tank, serta pembesian balok dan pelat lantai.",
+      "masalah": "",
+      "langkah": [
+        "Pengawasan dan inspeksi pekerjaan fondasi tiang bor (bored pile) dan pile cap.",
+        "Pengawasan pekerjaan ground water tank.",
+        "Inspeksi pembesian balok dan pelat lantai."
+      ],
+      "angka": [],
+      "catatan": "Nama proyek, pemilik, dan data uji tidak ditampilkan karena milik instansi. Label benda uji, stiker kalibrasi, dan layar alat di foto dikaburkan.",
+      "perangkat_lunak": [],
+      "media": [
+        {
+          "berkas": "uji-integritas-tiang.webp",
+          "keterangan": "Uji integritas tiang (pile integrity test) di lapangan."
+        },
+        {
+          "berkas": "uji-tekan-silinder.webp",
+          "keterangan": "Uji tekan benda uji silinder beton."
+        },
+        {
+          "berkas": "bekisting-kolom.webp",
+          "keterangan": "Bekisting kolom sebelum pengecoran."
+        }
+      ]
+    },
+    {
+      "id": "asisten-dosen",
+      "status": "publik",
+      "judul": "Asisten Dosen Menggambar Struktur Bangunan",
+      "acara": "Program Studi Teknik Sipil, Universitas Jambi",
+      "tahun": 2025,
+      "jenis": [
+        "Praktikum dan asisten lab",
+        "Gambar/DED"
+      ],
+      "hasil_singkat": "2025",
+      "peran": "Asisten dosen.",
+      "ringkas": "Membantu asistensi tugas gambar struktur bangunan, lalu memeriksa dan menilai tugas mahasiswa.",
+      "masalah": "",
+      "langkah": [],
+      "angka": [],
+      "catatan": "",
+      "perangkat_lunak": [],
+      "media": []
+    },
+    {
+      "id": "karhutla-muaro-jambi",
+      "status": "publik",
+      "judul": "Kajian risiko kebakaran hutan dan lahan di Kabupaten Muaro Jambi",
+      "acara": "Tugas besar mata kuliah Manajemen Bencana, Universitas Jambi",
+      "tahun": 2026,
+      "jenis": [
+        "Kajian dan tugas kuliah",
+        "Perhitungan"
+      ],
+      "hasil_singkat": "4 dari 11 kecamatan berisiko tinggi",
+      "peran": "Penulis laporan tugas besar.",
+      "ringkas": "Menghitung tingkat risiko kebakaran hutan dan lahan di 11 kecamatan Kabupaten Muaro Jambi dengan metode Perka BNPB Nomor 2 Tahun 2012, lalu menyusun strategi mitigasi dan rekomendasi teknis.",
+      "masalah": "Kebakaran hutan dan lahan di Muaro Jambi berulang dan berpusat di lahan gambut bagian timur: luas terbakar 45.037 ha pada 2015 dan 20.891 ha pada 2019, dan kejadian 2026 kembali meningkat.",
+      "langkah": [
+        "Indeks bahaya dari lahan, curah hujan, dan jenis tanah; indeks kerentanan (dua versi) dan indeks kapasitas kabupaten.",
+        "Indeks risiko per kecamatan dan tingkat risiko dari matriks Perka BNPB, lalu dipetakan.",
+        "Analisis dampak terhadap infrastruktur dan lingkungan.",
+        "Mitigasi struktural (sekat kanal, sumur bor, embung, alat ukur muka air tanah, sekat bakar) dan nonstruktural, serta rencana penanggulangan pra, saat, dan pascabencana."
+      ],
+      "angka": [
+        {
+          "label": "Indeks bahaya 11 kecamatan",
+          "nilai": "0,480–0,566 (sedang)"
+        },
+        {
+          "label": "Indeks risiko (versi B)",
+          "nilai": "0,459–0,572"
+        },
+        {
+          "label": "Kecamatan berisiko tinggi",
+          "nilai": "4 dari 11"
+        }
+      ],
+      "catatan": "Seluruh data adalah data sekunder (BPS, BMKG, publikasi); keterbatasannya dijelaskan di laporan. Batas wilayah dari GADM 4.1.",
+      "perangkat_lunak": [
+        "Microsoft Excel"
+      ],
+      "media": [
+        {
+          "berkas": "peta-tingkat-risiko.webp",
+          "keterangan": "Peta tingkat risiko karhutla per kecamatan. Batas desa GADM 4.1, dikelompokkan ulang ke 11 kecamatan."
+        },
+        {
+          "berkas": "peta-indeks-risiko.webp",
+          "keterangan": "Peta indeks risiko karhutla per kecamatan."
+        },
+        {
+          "berkas": "diagram-alur-metode.webp",
+          "keterangan": "Diagram alur metode kajian."
+        }
+      ]
+    }
+  ]
+}
