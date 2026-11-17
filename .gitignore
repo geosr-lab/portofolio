@@ -1,0 +1,4 @@
+# Pratinjau privat dan berkas kerja tidak pernah masuk repo (lihat skrip/bangun.py).
+__pycache__/
+*.pyc
+*.env
