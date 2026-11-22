@@ -1789,6 +1789,16 @@
           "berkas": "audit-akhir-rs-batanghari.pdf",
           "label": "Laporan Audit Akhir (PDF)"
         }
+      ],
+      "tautan": [
+        {
+          "label": "Semua berkas di GitHub (DWG, Excel, IFC, RKS)",
+          "url": "https://github.com/defsayurinda/studi-kasus-rs-batanghari-publik"
+        },
+        {
+          "label": "Paket unduhan v1.0 (zip per kelompok)",
+          "url": "https://github.com/defsayurinda/studi-kasus-rs-batanghari-publik/releases/tag/v1.0"
+        }
       ]
     },
     {
