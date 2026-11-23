@@ -214,7 +214,7 @@ def halaman_karya(k):
     tautan = k.get("tautan", [])
     if unduh or tautan:
         t = [f'<a class="tombol" href="{a + salin(k["id"], u["berkas"])}" download>{e(u["label"])}</a>{label_privat(u)}' for u in unduh]
-        t += [f'<a class="tombol" href="{e(x["url"])}">{e(x["label"])}</a>' for x in tautan]
+        t += [f'<a class="tombol" href="{e(a + salin(k["id"], x["berkas"]) if x.get("berkas") else x["url"])}">{e(x["label"])}</a>' for x in tautan]
         blok.append('<h2>Berkas dan tautan</h2>\n<p class="aksi">' + " ".join(t) + "</p>")
     if k.get("catatan"):
         blok.append(f'<p class="catatan">{e(k["catatan"])}</p>')

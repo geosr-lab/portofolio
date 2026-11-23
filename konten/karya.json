@@ -1588,7 +1588,7 @@
       "id": "lomba-lereng-2026",
       "status": "publik",
       "unggulan": true,
-      "judul": "Proposal desain perkuatan lereng (sedang dinilai)",
+      "judul": "Lereng taman bertulang geogrid rPET setinggi 10 m di atas clay shale",
       "acara": "Lomba desain geoteknik tingkat nasional, tahap penyisihan",
       "tahun": 2026,
       "jenis": [
@@ -1597,30 +1597,77 @@
         "Pemodelan",
         "Gambar/DED"
       ],
-      "hasil_singkat": "Sedang dinilai panitia; isi dibuka setelah pengumuman",
+      "hasil_singkat": "FK global statis 2,000 dan gempa 1,370 (SSAP2010); proposal 79 halaman + DED 12 lembar + model 3D",
       "peran": "Anggota tim.",
-      "ringkas": "Proposal desain perkuatan lereng lengkap: analisis stabilitas lereng, desain perkuatan, RAB, jadwal, sistem pemantauan, dan gambar DED 12 lembar.",
-      "masalah": "",
+      "ringkas": "Proposal desain perkuatan lereng berbasis geosintetik ramah lingkungan yang juga menjadi taman: analisis stabilitas, lereng bertulang geogrid rPET dua tier, dua baris tiang bor, drainase, pemantauan, RAB, jadwal, DED, dan model 3D interaktif.",
+      "masalah": "Lereng setinggi 10 m di antara dua gedung 4 lantai berdiri di atas clay shale yang lapuk bila basah-kering. Faktor keamanan lereng asli 0,74-1,46 (SSAP2010), di bawah syarat SNI 8460:2017, sehingga perkuatan wajib dan Gedung A di puncak harus tetap aman.",
       "langkah": [
-        "Analisis stabilitas lereng asli dan lereng yang diperkuat dengan dua perangkat lunak, ditambah pembanding hitungan tangan di Python.",
-        "Desain perkuatan, drainase, dan sistem pemantauan.",
-        "Volume, RAB, metode konstruksi, dan jadwal di Excel yang dibangun dengan skrip.",
-        "Gambar DED 12 lembar A3."
+        "Analisis stabilitas lereng asli dan lereng yang diperkuat dengan dua perangkat lunak (FLAC/Slope dan SSAP2010), ditambah pembanding Bishop di Python.",
+        "Desain lereng bertulang 29 lapis geogrid rPET (Sv 0,4 m), muka 70° dibungkus cocomesh + vetiver, bench 3 m sebagai jalur taman.",
+        "Defisit tahanan ditutup dua baris tiang bor D800 @1,2 m (L 16 m) dengan pelat kepala; cek struktur tiang dan stabilitas muka.",
+        "Subdrain, piezometer dengan ambang peringatan, volume, RAB, metode konstruksi, dan jadwal di Excel yang dibangun dengan skrip.",
+        "Gambar DED 12 lembar A3, lalu model 3D interaktif dan render dari geometri final SSAP2010 (Three.js)."
       ],
-      "angka": [],
-      "catatan": "Isi proposal sengaja disembunyikan dan gambar di atas dikaburkan: aturan lomba mendiskualifikasi karya yang sudah dipublikasikan sebelum penilaian. Halaman ini akan dilengkapi setelah lomba selesai.",
+      "angka": [
+        {
+          "label": "Geometri",
+          "nilai": "Kaki +94,5, puncak +104,5, panjang DPT 68,5 m, dua tier muka 70°"
+        },
+        {
+          "label": "Perkuatan",
+          "nilai": "29 lapis geogrid rPET, Sv 0,4 m, timbunan pilihan dari quarry"
+        },
+        {
+          "label": "Tiang",
+          "nilai": "2 baris tiang bor D800 @1,2 m, L 16 m, pelat kepala 4,1 × 1,0 m"
+        },
+        {
+          "label": "FK global",
+          "nilai": "Statis 2,000; gempa kh 0,195 1,370; sensitivitas kh 0,275 1,217; beban Gedung A 2,011"
+        }
+      ],
+      "catatan": "Model 3D dibangun langsung dari koordinat model SSAP2010 tanpa pembesaran vertikal. Posisi Gedung B, pohon, dan titik piezometer di model bersifat ilustrasi.",
       "perangkat_lunak": [
+        "SSAP2010",
+        "FLAC/Slope",
         "LibreCAD",
         "Microsoft Excel",
-        "Python"
+        "Python",
+        "Three.js"
       ],
       "media": [
         {
-          "berkas": "ded-samar.webp",
-          "keterangan": "Salah satu lembar DED, dikaburkan sampai lomba selesai."
+          "berkas": "lereng-3d-isometrik.webp",
+          "keterangan": "Model 3D: lereng dua tier di antara Gedung A (atas) dan Gedung B (bawah)."
+        },
+        {
+          "berkas": "lereng-3d-potongan.webp",
+          "keterangan": "Potongan depan: lapisan L1-L4, timbunan T1, geogrid, pelat kepala, dan tiang."
+        },
+        {
+          "berkas": "lereng-3d-tembus-pandang.webp",
+          "keterangan": "Tembus pandang: 29 lapis geogrid rPET dan dua baris tiang D800 di dalam tanah."
+        },
+        {
+          "berkas": "lereng-3d-muka-tier.webp",
+          "keterangan": "Muka 70° berbungkus cocomesh + vetiver dan bench 3 m sebagai jalur taman."
+        },
+        {
+          "berkas": "lereng-3d-dari-kaki.webp",
+          "keterangan": "Pandangan dari kaki lereng."
+        },
+        {
+          "berkas": "lereng-3d-udara.webp",
+          "keterangan": "Pandangan udara dari sisi Gedung A."
         }
       ],
-      "sampul": "ded-samar.webp"
+      "sampul": "lereng-3d-isometrik.webp",
+      "tautan": [
+        {
+          "label": "Buka model 3D interaktif",
+          "berkas": "model-3d-lereng.html"
+        }
+      ]
     },
     {
       "id": "geosr",
